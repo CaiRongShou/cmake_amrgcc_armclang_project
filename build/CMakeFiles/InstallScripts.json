@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"E:/GD32/01-Project/gd32_cmake/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
