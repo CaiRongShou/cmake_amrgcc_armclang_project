@@ -1,13 +1,14 @@
 #ifndef __MAIN_H_
 #define __MAIN_H_
 
+#include <stdio.h>
+#include <stdint.h>
+
+#include "config.h"
 
 #include "gd32f4xx.h"
-#include "stdint.h"
 #include "gd32f4xx_libopt.h"
-#include "gd32f4xx_exti.h"
-#include "xprintf.h"
-#include <stdio.h>
+
 
 
 

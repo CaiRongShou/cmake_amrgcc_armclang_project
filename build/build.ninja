@@ -57,8 +57,6 @@ build CMakeFiles/output.elf.dir/app/gd32f4xx_it.c.obj: C_COMPILER__output.2eelf_
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\app
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/app/main.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/app/main.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -68,8 +66,6 @@ build CMakeFiles/output.elf.dir/app/main.c.obj: C_COMPILER__output.2eelf_unscann
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\app
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/CMSIS/GD/GD32F4xx/Source/syscalls.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Source/syscalls.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -79,8 +75,6 @@ build CMakeFiles/output.elf.dir/libraries/CMSIS/GD/GD32F4xx/Source/syscalls.c.ob
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\CMSIS\GD\GD32F4xx\Source
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/CMSIS/GD/GD32F4xx/Source/system_gd32f4xx.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Source/system_gd32f4xx.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -90,8 +84,6 @@ build CMakeFiles/output.elf.dir/libraries/CMSIS/GD/GD32F4xx/Source/system_gd32f4
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\CMSIS\GD\GD32F4xx\Source
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_adc.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_adc.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -101,8 +93,6 @@ build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_can.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_can.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -112,8 +102,6 @@ build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_crc.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_crc.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -123,8 +111,6 @@ build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_ctc.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_ctc.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -134,8 +120,6 @@ build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_dac.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_dac.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -145,8 +129,6 @@ build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_dbg.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_dbg.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -156,8 +138,6 @@ build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_dci.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_dci.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -167,8 +147,6 @@ build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_dma.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_dma.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -178,8 +156,6 @@ build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_enet.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_enet.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -189,8 +165,6 @@ build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_exmc.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_exmc.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -200,8 +174,6 @@ build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_exti.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_exti.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -211,8 +183,6 @@ build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_fmc.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_fmc.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -222,8 +192,6 @@ build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_fwdgt.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_fwdgt.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -233,8 +201,6 @@ build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_gpio.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_gpio.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -244,8 +210,6 @@ build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_i2c.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_i2c.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -255,8 +219,6 @@ build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_ipa.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_ipa.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -266,8 +228,6 @@ build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_iref.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_iref.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -277,8 +237,6 @@ build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_misc.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_misc.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -288,8 +246,6 @@ build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_pmu.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_pmu.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -299,8 +255,6 @@ build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_rcu.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_rcu.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -310,8 +264,6 @@ build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_rtc.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_rtc.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -321,8 +273,6 @@ build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_sdio.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_sdio.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -332,8 +282,6 @@ build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_spi.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_spi.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -343,8 +291,6 @@ build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_syscfg.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_syscfg.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -354,8 +300,6 @@ build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_timer.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_timer.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -365,8 +309,6 @@ build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_tli.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_tli.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -376,8 +318,6 @@ build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_trng.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_trng.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -387,8 +327,6 @@ build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_usart.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_usart.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -398,8 +336,6 @@ build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_wwdgt.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_wwdgt.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -409,8 +345,6 @@ build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/arch/ethernetif.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch/ethernetif.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -420,8 +354,6 @@ build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/arch/ethernetif.c.obj: C_CO
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\arch
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/api/api_lib.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/api/api_lib.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -431,8 +363,6 @@ build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/api/api_lib.c.obj: C_CO
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\api
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/api/api_msg.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/api/api_msg.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -442,8 +372,6 @@ build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/api/api_msg.c.obj: C_CO
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\api
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/api/err.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/api/err.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -453,8 +381,6 @@ build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/api/err.c.obj: C_COMPIL
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\api
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/api/if_api.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/api/if_api.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -464,8 +390,6 @@ build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/api/if_api.c.obj: C_COM
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\api
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/api/netbuf.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/api/netbuf.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -475,8 +399,6 @@ build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/api/netbuf.c.obj: C_COM
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\api
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/api/netdb.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/api/netdb.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -486,8 +408,6 @@ build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/api/netdb.c.obj: C_COMP
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\api
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/api/netifapi.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/api/netifapi.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -497,8 +417,6 @@ build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/api/netifapi.c.obj: C_C
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\api
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/api/sockets.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/api/sockets.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -508,8 +426,6 @@ build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/api/sockets.c.obj: C_CO
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\api
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/api/tcpip.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/api/tcpip.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -519,8 +435,6 @@ build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/api/tcpip.c.obj: C_COMP
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\api
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/altcp.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/altcp.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -530,8 +444,6 @@ build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/altcp.c.obj: C_COM
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/altcp_alloc.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/altcp_alloc.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -541,8 +453,6 @@ build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/altcp_alloc.c.obj:
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/altcp_tcp.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/altcp_tcp.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -552,8 +462,6 @@ build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/altcp_tcp.c.obj: C
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/def.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/def.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -563,8 +471,6 @@ build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/def.c.obj: C_COMPI
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/dns.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/dns.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -574,8 +480,6 @@ build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/dns.c.obj: C_COMPI
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/inet_chksum.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/inet_chksum.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -585,8 +489,6 @@ build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/inet_chksum.c.obj:
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/init.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/init.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -596,8 +498,6 @@ build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/init.c.obj: C_COMP
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/ip.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/ip.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -607,8 +507,6 @@ build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/ip.c.obj: C_COMPIL
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/ipv4/autoip.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/ipv4/autoip.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -618,8 +516,6 @@ build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/ipv4/autoip.c.obj:
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core\ipv4
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/ipv4/dhcp.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/ipv4/dhcp.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -629,8 +525,6 @@ build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/ipv4/dhcp.c.obj: C
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core\ipv4
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/ipv4/etharp.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/ipv4/etharp.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -640,8 +534,6 @@ build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/ipv4/etharp.c.obj:
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core\ipv4
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/ipv4/icmp.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/ipv4/icmp.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -651,8 +543,6 @@ build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/ipv4/icmp.c.obj: C
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core\ipv4
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/ipv4/igmp.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/ipv4/igmp.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -662,8 +552,6 @@ build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/ipv4/igmp.c.obj: C
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core\ipv4
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/ipv4/ip4.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/ipv4/ip4.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -673,8 +561,6 @@ build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/ipv4/ip4.c.obj: C_
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core\ipv4
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/ipv4/ip4_addr.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/ipv4/ip4_addr.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -684,8 +570,6 @@ build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/ipv4/ip4_addr.c.ob
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core\ipv4
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/ipv4/ip4_frag.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/ipv4/ip4_frag.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -695,8 +579,6 @@ build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/ipv4/ip4_frag.c.ob
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core\ipv4
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/mem.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/mem.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -706,8 +588,6 @@ build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/mem.c.obj: C_COMPI
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/memp.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/memp.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -717,8 +597,6 @@ build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/memp.c.obj: C_COMP
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/netif.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/netif.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -728,8 +606,6 @@ build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/netif.c.obj: C_COM
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/pbuf.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/pbuf.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -739,8 +615,6 @@ build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/pbuf.c.obj: C_COMP
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/raw.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/raw.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -750,8 +624,6 @@ build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/raw.c.obj: C_COMPI
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/stats.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/stats.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -761,8 +633,6 @@ build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/stats.c.obj: C_COM
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/sys.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/sys.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -772,8 +642,6 @@ build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/sys.c.obj: C_COMPI
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/tcp.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/tcp.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -783,8 +651,6 @@ build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/tcp.c.obj: C_COMPI
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/tcp_in.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/tcp_in.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -794,8 +660,6 @@ build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/tcp_in.c.obj: C_CO
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/tcp_out.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/tcp_out.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -805,8 +669,6 @@ build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/tcp_out.c.obj: C_C
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/timeouts.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/timeouts.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -816,8 +678,6 @@ build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/timeouts.c.obj: C_
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/udp.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/udp.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -827,8 +687,6 @@ build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/udp.c.obj: C_COMPI
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/netif/ethernet.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/netif/ethernet.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -838,8 +696,6 @@ build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/netif/ethernet.c.obj: C
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\netif
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/libraries/xprintf/src/xprintf.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/xprintf/src/xprintf.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -849,8 +705,6 @@ build CMakeFiles/output.elf.dir/libraries/xprintf/src/xprintf.c.obj: C_COMPILER_
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\xprintf\src
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/module/soft_timer/soft_timer.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/module/soft_timer/soft_timer.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -860,8 +714,6 @@ build CMakeFiles/output.elf.dir/module/soft_timer/soft_timer.c.obj: C_COMPILER__
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\module\soft_timer
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/user/bsp/bsp_enet.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/user/bsp/bsp_enet.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -871,8 +723,6 @@ build CMakeFiles/output.elf.dir/user/bsp/bsp_enet.c.obj: C_COMPILER__output.2eel
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\user\bsp
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/user/bsp/bsp_led.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/user/bsp/bsp_led.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -882,8 +732,6 @@ build CMakeFiles/output.elf.dir/user/bsp/bsp_led.c.obj: C_COMPILER__output.2eelf
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\user\bsp
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/user/bsp/bsp_uart.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/user/bsp/bsp_uart.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -893,8 +741,6 @@ build CMakeFiles/output.elf.dir/user/bsp/bsp_uart.c.obj: C_COMPILER__output.2eel
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\user\bsp
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 build CMakeFiles/output.elf.dir/startup/GCC/startup_gd32f407_427.S.obj: ASM_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/startup/GCC/startup_gd32f407_427.S || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
@@ -904,8 +750,6 @@ build CMakeFiles/output.elf.dir/startup/GCC/startup_gd32f407_427.S.obj: ASM_COMP
   INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
   OBJECT_DIR = CMakeFiles\output.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\startup\GCC
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
-  TARGET_PDB = output\output.elf.pdb
 
 
 # =============================================================================
@@ -922,10 +766,8 @@ build output/output.elf: C_EXECUTABLE_LINKER__output.2eelf_Debug CMakeFiles/outp
   OBJECT_DIR = CMakeFiles\output.elf.dir
   POST_BUILD = C:\Windows\system32\cmd.exe /C "cd /D E:\GD32\01-Project\gd32_cmake\build && C:\SysGCC\arm-eabi\bin\arm-none-eabi-objcopy.exe -Obinary E:/GD32/01-Project/gd32_cmake/build/output/output.elf E:/GD32/01-Project/gd32_cmake/build/output/output.bin && C:\SysGCC\arm-eabi\bin\arm-none-eabi-objcopy.exe -Oihex E:/GD32/01-Project/gd32_cmake/build/output/output.elf E:/GD32/01-Project/gd32_cmake/build/output/output.hex && C:\SysGCC\arm-eabi\bin\arm-none-eabi-size.exe E:/GD32/01-Project/gd32_cmake/build/output/output.elf"
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
   TARGET_FILE = output\output.elf
-  TARGET_PDB = output\output.elf.pdb
-  RSP_FILE = CMakeFiles\output.elf.rsp
+  TARGET_PDB = output.elf.dbg
 
 
 #############################################
@@ -973,14 +815,14 @@ build all: phony output/output.elf
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja E$:/GD32/01-Project/gd32_cmake/build/cmake_install.cmake: RERUN_CMAKE | C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeASMCompiler.cmake.in C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeASMInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeCCompiler.cmake.in C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeCCompilerABI.c C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeCInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeCXXCompiler.cmake.in C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeCXXCompilerABI.cpp C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeCXXInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeCommonLanguageInclude.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeCompilerIdDetection.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerSupport.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineSystem.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeFindBinUtils.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeGenericSystem.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeInitializeConfigs.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeLanguageInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeNinjaFindMake.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeParseImplicitLinkInfo.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeParseLibraryArchitecture.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeSystem.cmake.in C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeSystemSpecificInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeSystemSpecificInitialize.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeTestASMCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeTestCompilerCommon.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/GNU-ASM.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/GNU-C.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/GNU-CXX-CXXImportStd.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/GNU-CXX.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/GNU-FindBinUtils.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/GNU.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/TI-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Internal/CMakeASMLinkerInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Internal/CMakeCLinkerInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Internal/CMakeInspectASMLinker.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Internal/CMakeInspectCLinker.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Internal/CMakeInspectCXXLinker.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Internal/FeatureTesting.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Platform/Generic.cmake CMakeCache.txt CMakeFiles/4.0.2/CMakeASMCompiler.cmake CMakeFiles/4.0.2/CMakeCCompiler.cmake CMakeFiles/4.0.2/CMakeCXXCompiler.cmake CMakeFiles/4.0.2/CMakeSystem.cmake E$:/GD32/01-Project/gd32_cmake/CMakeLists.txt E$:/GD32/01-Project/gd32_cmake/toolchain.cmake
+build build.ninja E$:/GD32/01-Project/gd32_cmake/build/cmake_install.cmake: RERUN_CMAKE | C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeASMInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeCInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeCXXInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeCommonLanguageInclude.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeGenericSystem.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeInitializeConfigs.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeLanguageInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeSystemSpecificInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeSystemSpecificInitialize.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/GNU-ASM.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/GNU-C.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/GNU-CXX.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/GNU.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Internal/CMakeASMLinkerInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Internal/CMakeCLinkerInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Platform/Generic.cmake CMakeCache.txt CMakeFiles/4.0.2/CMakeASMCompiler.cmake CMakeFiles/4.0.2/CMakeCCompiler.cmake CMakeFiles/4.0.2/CMakeCXXCompiler.cmake CMakeFiles/4.0.2/CMakeSystem.cmake E$:/GD32/01-Project/gd32_cmake/CMakeLists.txt E$:/GD32/01-Project/gd32_cmake/toolchain.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeASMCompiler.cmake.in C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeASMInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeCCompiler.cmake.in C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeCCompilerABI.c C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeCInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeCXXCompiler.cmake.in C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeCXXCompilerABI.cpp C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeCXXInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeCommonLanguageInclude.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeCompilerIdDetection.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerSupport.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineSystem.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeFindBinUtils.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeGenericSystem.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeInitializeConfigs.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeLanguageInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeNinjaFindMake.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeParseImplicitLinkInfo.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeParseLibraryArchitecture.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeSystem.cmake.in C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeSystemSpecificInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeSystemSpecificInitialize.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeTestASMCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeTestCompilerCommon.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/GNU-ASM.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/GNU-C.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/GNU-CXX-CXXImportStd.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/GNU-CXX.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/GNU-FindBinUtils.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/GNU.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/TI-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Internal/CMakeASMLinkerInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Internal/CMakeCLinkerInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Internal/CMakeInspectASMLinker.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Internal/CMakeInspectCLinker.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Internal/CMakeInspectCXXLinker.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Internal/FeatureTesting.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Platform/Generic.cmake CMakeCache.txt CMakeFiles/4.0.2/CMakeASMCompiler.cmake CMakeFiles/4.0.2/CMakeCCompiler.cmake CMakeFiles/4.0.2/CMakeCXXCompiler.cmake CMakeFiles/4.0.2/CMakeSystem.cmake E$:/GD32/01-Project/gd32_cmake/CMakeLists.txt E$:/GD32/01-Project/gd32_cmake/toolchain.cmake: phony
+build C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeASMInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeCInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeCXXInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeCommonLanguageInclude.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeGenericSystem.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeInitializeConfigs.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeLanguageInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeSystemSpecificInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeSystemSpecificInitialize.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/GNU-ASM.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/GNU-C.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/GNU-CXX.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/GNU.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Internal/CMakeASMLinkerInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Internal/CMakeCLinkerInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Platform/Generic.cmake CMakeCache.txt CMakeFiles/4.0.2/CMakeASMCompiler.cmake CMakeFiles/4.0.2/CMakeCCompiler.cmake CMakeFiles/4.0.2/CMakeCXXCompiler.cmake CMakeFiles/4.0.2/CMakeSystem.cmake E$:/GD32/01-Project/gd32_cmake/CMakeLists.txt E$:/GD32/01-Project/gd32_cmake/toolchain.cmake: phony
 
 
 #############################################

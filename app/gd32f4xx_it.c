@@ -34,8 +34,16 @@ OF SUCH DAMAGE.
 
 #include "gd32f4xx_it.h"
 #include "main.h"
-// #include "bsp_sd.h"
 #include "soft_timer.h"
+
+#if USE_SD
+#include "bsp_sd.h"
+#endif
+
+#if USE_LWIP
+#include "bsp_enet.h"
+#endif
+
 static __IO uint32_t g_system_tick = 0;
 
 /*!
@@ -115,6 +123,7 @@ void Error_Handler(void)
     /* USER CODE END Error_Handler */
 }
 
+#if USE_SD
 /*!
     \brief      this function handles SDIO interrupt request
     \param[in]  none
@@ -123,16 +132,17 @@ void Error_Handler(void)
 */
 void SDIO_IRQHandler(void)
 {
-    // sd_interrupts_process();
+    sd_interrupts_process();
 }
+#endif
 
+#if USE_LWIP
 /*!
     \brief      this function handles ENET interrupt request
     \param[in]  none
     \param[out] none
     \retval     none
 */
-extern void lwip_pkt_handle(void);
 void ENET_IRQHandler(void)
 {
     uint32_t reval;
@@ -151,6 +161,8 @@ void ENET_IRQHandler(void)
 
 
 }
+#endif
+
 /*!
     \brief      configure systick
     \param[in]  none
@@ -160,7 +172,7 @@ void ENET_IRQHandler(void)
 void systick_config(void)
 {
     /* setup systick timer for 1000Hz interrupts */
-    if(SysTick_Config(SystemCoreClock / 100U)) {
+    if(SysTick_Config(SystemCoreClock / 100U)) { //10ms
         /* capture error */
         while(1) {
         }
@@ -229,7 +241,7 @@ void delay_us(uint32_t _us)
             told = tnow;
 
             // 如果达到了需要的时钟数，就退出循环
-            if (tcnt >= ticks)
+            if (tcnt >= ticks) 
                 break;
         }
     }

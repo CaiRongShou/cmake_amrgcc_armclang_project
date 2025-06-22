@@ -22,7 +22,7 @@ string(TOUPPER ${CMAKE_BUILD_TYPE} BUILD_TYPE_UPPER) # 将CMAKE_BUILD_TYPE的输
 
 #
 if(${BUILD_TYPE_UPPER} STREQUAL "RELEASE") #根据选项选择编译等级
-    add_compile_options(-Os)
+    add_compile_options(-O3)
 else()
     add_compile_options(-Og -g3) # -g 带调试信息
 endif()

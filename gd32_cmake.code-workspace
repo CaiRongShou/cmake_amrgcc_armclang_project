@@ -25,6 +25,11 @@
                 "task": "Flash",
                 "tooltip": "Run Flash Task"
             },
+            // {
+            //     "label": "$(debug) debug",
+            //     "task": "debug",
+            //     "tooltip": "Run debug Task"
+            // },
         ]
     }
 }

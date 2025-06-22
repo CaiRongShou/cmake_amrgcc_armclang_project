@@ -231,9 +231,7 @@ void write_lan_phy(unsigned short phy_addr, unsigned short phy_Reg, unsigned sho
 void lan_phy_init(void)
 {
     volatile int i,ii;
-    __IO uint32_t timeout = 0;
     uint32_t media_temp = 0U,reg_value=0;
-    volatile int delaytimes = 5 ;
     lan_is_disconnect=0;
     uint16_t RegVlaue=0;
 
@@ -407,9 +405,10 @@ uint8_t lwip_comm_init(void)
 	ip_addr_t ipaddr;                           /* ip地址 */
 	ip_addr_t netmask;                          /* 子网掩码 */
 	ip_addr_t gw;                               /* 默认网关 */
-
+	
+#if USE_DHCP 
 	uint32_t g_ip = 0, g_netmask = 0, g_gw = 0;
-
+#endif
 
 	lwip_comm_default_ip_set(&lwipdev);         /* 设置默认IP等信息 */
 
