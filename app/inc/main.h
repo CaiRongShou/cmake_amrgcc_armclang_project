@@ -4,10 +4,10 @@
 
 #include "gd32f4xx.h"
 #include "stdint.h"
-#include "stdio.h"
 #include "gd32f4xx_libopt.h"
 #include "gd32f4xx_exti.h"
-
+#include "xprintf.h"
+#include <stdio.h>
 
 
 

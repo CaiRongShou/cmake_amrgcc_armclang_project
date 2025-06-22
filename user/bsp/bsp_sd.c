@@ -138,83 +138,83 @@ void card_info_get(void)
 }
 
 /*
-//	º¯Êı£ºFatFs_FileTest
-//	¹¦ÄÜ£º½øĞĞÎÄ¼şĞ´ÈëºÍ¶ÁÈ¡²âÊÔ
+//	å‡½æ•°ï¼šFatFs_FileTest
+//	åŠŸèƒ½ï¼šè¿›è¡Œæ–‡ä»¶å†™å…¥å’Œè¯»å–æµ‹è¯•
 //
-uint8_t  FatFs_FileTest(void)	//ÎÄ¼ş´´½¨ºÍĞ´Èë²âÊÔ
+uint8_t  FatFs_FileTest(void)	//æ–‡ä»¶åˆ›å»ºå’Œå†™å…¥æµ‹è¯•
 {
     uint8_t i = 0;
     uint16_t BufferSize = 0;
-    FIL	MyFile;			// ÎÄ¼ş¶ÔÏó
-    UINT 	MyFile_Num;		//	Êı¾İ³¤¶È
-    BYTE 	MyFile_WriteBuffer[] = "STM32H7B0 SD¿¨ ÎÄ¼şÏµÍ³²âÊÔ";	//ÒªĞ´ÈëµÄÊı¾İ
-    BYTE 	MyFile_ReadBuffer[1024];	//Òª¶Á³öµÄÊı¾İ
+    FIL	MyFile;			// æ–‡ä»¶å¯¹è±¡
+    UINT 	MyFile_Num;		//	æ•°æ®é•¿åº¦
+    BYTE 	MyFile_WriteBuffer[] = "STM32H7B0 SDå¡ æ–‡ä»¶ç³»ç»Ÿæµ‹è¯•";	//è¦å†™å…¥çš„æ•°æ®
+    BYTE 	MyFile_ReadBuffer[1024];	//è¦è¯»å‡ºçš„æ•°æ®
     uint8_t MyFile_Res;   // Return value for SD
 
-    printf("-------------FatFs ÎÄ¼ş´´½¨ºÍĞ´Èë²âÊÔ---------------\r\n");
+    printf("-------------FatFs æ–‡ä»¶åˆ›å»ºå’Œå†™å…¥æµ‹è¯•---------------\r\n");
 
-    //¹ÒÔØÎÄ¼şÏµÍ³
+    //æŒ‚è½½æ–‡ä»¶ç³»ç»Ÿ
     FATFS fs;
     MyFile_Res = f_mount(&fs, "", 1);
     if (MyFile_Res != FR_OK) {
         return MyFile_Res;
     }
 
-    MyFile_Res = f_open(&MyFile,"0:Test.txt",FA_CREATE_ALWAYS | FA_WRITE);	//´ò¿ªÎÄ¼ş£¬Èô²»´æÔÚÔò´´½¨¸ÃÎÄ¼ş
+    MyFile_Res = f_open(&MyFile,"0:Test.txt",FA_CREATE_ALWAYS | FA_WRITE);	//æ‰“å¼€æ–‡ä»¶ï¼Œè‹¥ä¸å­˜åœ¨åˆ™åˆ›å»ºè¯¥æ–‡ä»¶
     if(MyFile_Res == FR_OK)
     {
-        printf("ÎÄ¼ş´ò¿ª/´´½¨³É¹¦£¬×¼±¸Ğ´ÈëÊı¾İ...\r\n");
+        printf("æ–‡ä»¶æ‰“å¼€/åˆ›å»ºæˆåŠŸï¼Œå‡†å¤‡å†™å…¥æ•°æ®...\r\n");
 
-        MyFile_Res = f_write(&MyFile,MyFile_WriteBuffer,sizeof(MyFile_WriteBuffer),&MyFile_Num);	//ÏòÎÄ¼şĞ´ÈëÊı¾İ
+        MyFile_Res = f_write(&MyFile,MyFile_WriteBuffer,sizeof(MyFile_WriteBuffer),&MyFile_Num);	//å‘æ–‡ä»¶å†™å…¥æ•°æ®
         if (MyFile_Res == FR_OK)
         {
-            printf("Ğ´Èë³É¹¦£¬Ğ´ÈëÄÚÈİÎª£º\r\n");
+            printf("å†™å…¥æˆåŠŸï¼Œå†™å…¥å†…å®¹ä¸ºï¼š\r\n");
             printf("%s\r\n",MyFile_WriteBuffer);
         }
         else
         {
-            printf("ÎÄ¼şĞ´ÈëÊ§°Ü£¬Çë¼ì²éSD¿¨»òÖØĞÂ¸ñÊ½»¯!\r\n");
-            f_close(&MyFile);	  //¹Ø±ÕÎÄ¼ş
+            printf("æ–‡ä»¶å†™å…¥å¤±è´¥ï¼Œè¯·æ£€æŸ¥SDå¡æˆ–é‡æ–°æ ¼å¼åŒ–!\r\n");
+            f_close(&MyFile);	  //å…³é—­æ–‡ä»¶
             return ERROR;
         }
-        f_close(&MyFile);	  //¹Ø±ÕÎÄ¼ş
+        f_close(&MyFile);	  //å…³é—­æ–‡ä»¶
     }
     else
     {
-        printf("ÎŞ·¨´ò¿ª/´´½¨ÎÄ¼ş£¬Çë¼ì²éSD¿¨»òÖØĞÂ¸ñÊ½»¯!\r\n");
-        f_close(&MyFile);	  //¹Ø±ÕÎÄ¼ş
+        printf("æ— æ³•æ‰“å¼€/åˆ›å»ºæ–‡ä»¶ï¼Œè¯·æ£€æŸ¥SDå¡æˆ–é‡æ–°æ ¼å¼åŒ–!\r\n");
+        f_close(&MyFile);	  //å…³é—­æ–‡ä»¶
         return ERROR;
     }
 
-    printf("-------------FatFs ÎÄ¼ş¶ÁÈ¡²âÊÔ---------------\r\n");
+    printf("-------------FatFs æ–‡ä»¶è¯»å–æµ‹è¯•---------------\r\n");
 
-    BufferSize = sizeof(MyFile_WriteBuffer)/sizeof(BYTE);									// ¼ÆËãĞ´ÈëµÄÊı¾İ³¤¶È
-    MyFile_Res = f_open(&MyFile,"0:Test.txt",FA_OPEN_EXISTING | FA_READ);	//´ò¿ªÎÄ¼ş£¬Èô²»´æÔÚÔò´´½¨¸ÃÎÄ¼ş
-    MyFile_Res = f_read(&MyFile,MyFile_ReadBuffer,BufferSize,&MyFile_Num);			// ¶ÁÈ¡ÎÄ¼ş
+    BufferSize = sizeof(MyFile_WriteBuffer)/sizeof(BYTE);									// è®¡ç®—å†™å…¥çš„æ•°æ®é•¿åº¦
+    MyFile_Res = f_open(&MyFile,"0:Test.txt",FA_OPEN_EXISTING | FA_READ);	//æ‰“å¼€æ–‡ä»¶ï¼Œè‹¥ä¸å­˜åœ¨åˆ™åˆ›å»ºè¯¥æ–‡ä»¶
+    MyFile_Res = f_read(&MyFile,MyFile_ReadBuffer,BufferSize,&MyFile_Num);			// è¯»å–æ–‡ä»¶
     if(MyFile_Res == FR_OK)
     {
-        printf("ÎÄ¼ş¶ÁÈ¡³É¹¦£¬ÕıÔÚĞ£ÑéÊı¾İ...\r\n");
+        printf("æ–‡ä»¶è¯»å–æˆåŠŸï¼Œæ­£åœ¨æ ¡éªŒæ•°æ®...\r\n");
 
         for(i=0; i<BufferSize; i++)
         {
-            if(MyFile_WriteBuffer[i] != MyFile_ReadBuffer[i])		// Ğ£ÑéÊı¾İ
+            if(MyFile_WriteBuffer[i] != MyFile_ReadBuffer[i])		// æ ¡éªŒæ•°æ®
             {
-                printf("Ğ£ÑéÊ§°Ü£¬Çë¼ì²éSD¿¨»òÖØĞÂ¸ñÊ½»¯!\r\n");
-                f_close(&MyFile);	  //¹Ø±ÕÎÄ¼ş
+                printf("æ ¡éªŒå¤±è´¥ï¼Œè¯·æ£€æŸ¥SDå¡æˆ–é‡æ–°æ ¼å¼åŒ–!\r\n");
+                f_close(&MyFile);	  //å…³é—­æ–‡ä»¶
                 return ERROR;
             }
         }
-        printf("Ğ£Ñé³É¹¦£¬¶Á³öµÄÊı¾İÎª£º\r\n");
+        printf("æ ¡éªŒæˆåŠŸï¼Œè¯»å‡ºçš„æ•°æ®ä¸ºï¼š\r\n");
         printf("%s\r\n",MyFile_ReadBuffer);
     }
     else
     {
-        printf("ÎŞ·¨¶ÁÈ¡ÎÄ¼ş£¬Çë¼ì²éSD¿¨»òÖØĞÂ¸ñÊ½»¯!\r\n");
-        f_close(&MyFile);	  //¹Ø±ÕÎÄ¼ş
+        printf("æ— æ³•è¯»å–æ–‡ä»¶ï¼Œè¯·æ£€æŸ¥SDå¡æˆ–é‡æ–°æ ¼å¼åŒ–!\r\n");
+        f_close(&MyFile);	  //å…³é—­æ–‡ä»¶
         return ERROR;
     }
 
-    f_close(&MyFile);	  //¹Ø±ÕÎÄ¼ş
+    f_close(&MyFile);	  //å…³é—­æ–‡ä»¶
     f_mount(NULL, "", 0);
     return SUCCESS;
 }

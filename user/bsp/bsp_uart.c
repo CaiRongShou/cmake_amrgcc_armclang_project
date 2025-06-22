@@ -1,5 +1,5 @@
 #include "bsp_uart.h"
-#include <stdio.h>
+#include "stdio.h"
 
 // clang-format off
 
@@ -139,30 +139,47 @@ void bsp_uart_init(void)
     }
 }
 
-// #if !defined(__MICROLIB)
-// //不使用微库的话就需要添加下面的函数
-// #if (__ARMCLIB_VERSION <= 6000000)
-// //如果编译器是AC5  就定义下面这个结构体
-// struct __FILE
-// {
-//     int handle;
-// };
-// #endif
-
-// FILE __stdout;
-
-// //定义_sys_exit()以避免使用半主机模式
-// void _sys_exit(int x)
-// {
-//     x = x;
-// }
-// #endif
-
-/* retarget the C library printf function to the USART */
-int fputc(int ch, FILE *f)
+void uart_sendbyte(uint8_t byte)
 {
-    usart_data_transmit(COM_UART[0], (uint8_t)ch);
-    while(RESET == usart_flag_get(COM_UART[0], USART_FLAG_TBE));
-    return ch;
+    usart_data_transmit(COM_UART[0], byte);
+    while (RESET == usart_flag_get(COM_UART[0], USART_FLAG_TBE));
+}
+
+uint16_t uart_receivebyte(void)
+{
+    while (RESET == usart_flag_get(COM_UART[0], USART_FLAG_RBNE));
+    return usart_data_receive(COM_UART[0]); 
+}
+
+/* ------------------通过重定向将printf函数映射到串口1上-------------------*/
+#if 0
+
+void _sys_exit(int x) //避免使用半主机模式
+{
+  x = x;
+}
+//__use_no_semihosting was requested, but _ttywrch was 
+void _ttywrch(int ch)
+{
+    ch = ch;
+}
+struct __FILE
+{
+  int handle;
+};
+FILE __stdout;
+
+#endif
+
+#if 1
+#define PUTCHAR_PROTOTYPE int __io_putchar(int ch)
+#else
+#define PUTCHAR_PROTOTYPE int fputc(int ch, FILE *f)
+#endif 
+PUTCHAR_PROTOTYPE
+{
+  /* 实现串口发送一个字节数据的函数 */
+  uart_sendbyte((uint8_t)ch);
+  return ch;
 }
 

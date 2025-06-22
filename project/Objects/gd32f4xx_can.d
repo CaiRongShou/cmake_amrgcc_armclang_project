@@ -9,7 +9,7 @@
   C:\Users\crs\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h \
   C:\Users\crs\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h \
   ..\libraries\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h \
-  ..\libraries\CMSIS\GD\GD32F4xx\Include\..\..\..\..\..\board\gd32f4xx_libopt.h \
+  ..\libraries\CMSIS\GD\GD32F4xx\Include\..\..\..\..\..\app\inc\gd32f4xx_libopt.h \
   ..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h \
   ..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h \
   ..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h \

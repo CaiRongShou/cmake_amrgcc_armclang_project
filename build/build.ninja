@@ -41,355 +41,891 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = E$:/GD32/01-Project/gd32_cmake/build/
 # =============================================================================
-# Object build statements for EXECUTABLE target output
+# Object build statements for EXECUTABLE target output.elf
 
 
 #############################################
-# Order-only phony target for output
+# Order-only phony target for output.elf
 
-build cmake_object_order_depends_target_output: phony || .
+build cmake_object_order_depends_target_output.elf: phony || .
 
-build CMakeFiles/output.dir/app/gd32f4xx_it.o: C_COMPILER__output_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/app/gd32f4xx_it.c || cmake_object_order_depends_target_output
+build CMakeFiles/output.elf.dir/app/gd32f4xx_it.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/app/gd32f4xx_it.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
-  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER -D__TARGET_FPU_VFP
-  DEP_FILE = CMakeFiles\output.dir\app\gd32f4xx_it.o.d
-  FLAGS = -g -std=gnu99 -Og -g --target=arm-arm-none-eabi -mcpu=cortex-m4 -masm=armasm -Wa,armasm,--diag_suppress=A1950W -gdwarf-4
-  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer
-  OBJECT_DIR = CMakeFiles\output.dir
-  OBJECT_FILE_DIR = CMakeFiles\output.dir\app
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\app\gd32f4xx_it.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\app
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
 
-build CMakeFiles/output.dir/app/main.o: C_COMPILER__output_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/app/main.c || cmake_object_order_depends_target_output
+build CMakeFiles/output.elf.dir/app/main.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/app/main.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
-  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER -D__TARGET_FPU_VFP
-  DEP_FILE = CMakeFiles\output.dir\app\main.o.d
-  FLAGS = -g -std=gnu99 -Og -g --target=arm-arm-none-eabi -mcpu=cortex-m4 -masm=armasm -Wa,armasm,--diag_suppress=A1950W -gdwarf-4
-  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer
-  OBJECT_DIR = CMakeFiles\output.dir
-  OBJECT_FILE_DIR = CMakeFiles\output.dir\app
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\app\main.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\app
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
 
-build CMakeFiles/output.dir/libraries/CMSIS/GD/GD32F4xx/Source/system_gd32f4xx.o: C_COMPILER__output_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Source/system_gd32f4xx.c || cmake_object_order_depends_target_output
+build CMakeFiles/output.elf.dir/libraries/CMSIS/GD/GD32F4xx/Source/syscalls.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Source/syscalls.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
-  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER -D__TARGET_FPU_VFP
-  DEP_FILE = CMakeFiles\output.dir\libraries\CMSIS\GD\GD32F4xx\Source\system_gd32f4xx.o.d
-  FLAGS = -g -std=gnu99 -Og -g --target=arm-arm-none-eabi -mcpu=cortex-m4 -masm=armasm -Wa,armasm,--diag_suppress=A1950W -gdwarf-4
-  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer
-  OBJECT_DIR = CMakeFiles\output.dir
-  OBJECT_FILE_DIR = CMakeFiles\output.dir\libraries\CMSIS\GD\GD32F4xx\Source
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\CMSIS\GD\GD32F4xx\Source\syscalls.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\CMSIS\GD\GD32F4xx\Source
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
 
-build CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_adc.o: C_COMPILER__output_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_adc.c || cmake_object_order_depends_target_output
+build CMakeFiles/output.elf.dir/libraries/CMSIS/GD/GD32F4xx/Source/system_gd32f4xx.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Source/system_gd32f4xx.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
-  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER -D__TARGET_FPU_VFP
-  DEP_FILE = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_adc.o.d
-  FLAGS = -g -std=gnu99 -Og -g --target=arm-arm-none-eabi -mcpu=cortex-m4 -masm=armasm -Wa,armasm,--diag_suppress=A1950W -gdwarf-4
-  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer
-  OBJECT_DIR = CMakeFiles\output.dir
-  OBJECT_FILE_DIR = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\CMSIS\GD\GD32F4xx\Source\system_gd32f4xx.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\CMSIS\GD\GD32F4xx\Source
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
 
-build CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_can.o: C_COMPILER__output_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_can.c || cmake_object_order_depends_target_output
+build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_adc.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_adc.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
-  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER -D__TARGET_FPU_VFP
-  DEP_FILE = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_can.o.d
-  FLAGS = -g -std=gnu99 -Og -g --target=arm-arm-none-eabi -mcpu=cortex-m4 -masm=armasm -Wa,armasm,--diag_suppress=A1950W -gdwarf-4
-  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer
-  OBJECT_DIR = CMakeFiles\output.dir
-  OBJECT_FILE_DIR = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_adc.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
 
-build CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_crc.o: C_COMPILER__output_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_crc.c || cmake_object_order_depends_target_output
+build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_can.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_can.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
-  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER -D__TARGET_FPU_VFP
-  DEP_FILE = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_crc.o.d
-  FLAGS = -g -std=gnu99 -Og -g --target=arm-arm-none-eabi -mcpu=cortex-m4 -masm=armasm -Wa,armasm,--diag_suppress=A1950W -gdwarf-4
-  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer
-  OBJECT_DIR = CMakeFiles\output.dir
-  OBJECT_FILE_DIR = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_can.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
 
-build CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_ctc.o: C_COMPILER__output_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_ctc.c || cmake_object_order_depends_target_output
+build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_crc.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_crc.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
-  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER -D__TARGET_FPU_VFP
-  DEP_FILE = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_ctc.o.d
-  FLAGS = -g -std=gnu99 -Og -g --target=arm-arm-none-eabi -mcpu=cortex-m4 -masm=armasm -Wa,armasm,--diag_suppress=A1950W -gdwarf-4
-  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer
-  OBJECT_DIR = CMakeFiles\output.dir
-  OBJECT_FILE_DIR = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_crc.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
 
-build CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_dac.o: C_COMPILER__output_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_dac.c || cmake_object_order_depends_target_output
+build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_ctc.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_ctc.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
-  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER -D__TARGET_FPU_VFP
-  DEP_FILE = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_dac.o.d
-  FLAGS = -g -std=gnu99 -Og -g --target=arm-arm-none-eabi -mcpu=cortex-m4 -masm=armasm -Wa,armasm,--diag_suppress=A1950W -gdwarf-4
-  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer
-  OBJECT_DIR = CMakeFiles\output.dir
-  OBJECT_FILE_DIR = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_ctc.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
 
-build CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_dbg.o: C_COMPILER__output_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_dbg.c || cmake_object_order_depends_target_output
+build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_dac.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_dac.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
-  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER -D__TARGET_FPU_VFP
-  DEP_FILE = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_dbg.o.d
-  FLAGS = -g -std=gnu99 -Og -g --target=arm-arm-none-eabi -mcpu=cortex-m4 -masm=armasm -Wa,armasm,--diag_suppress=A1950W -gdwarf-4
-  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer
-  OBJECT_DIR = CMakeFiles\output.dir
-  OBJECT_FILE_DIR = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_dac.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
 
-build CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_dci.o: C_COMPILER__output_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_dci.c || cmake_object_order_depends_target_output
+build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_dbg.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_dbg.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
-  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER -D__TARGET_FPU_VFP
-  DEP_FILE = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_dci.o.d
-  FLAGS = -g -std=gnu99 -Og -g --target=arm-arm-none-eabi -mcpu=cortex-m4 -masm=armasm -Wa,armasm,--diag_suppress=A1950W -gdwarf-4
-  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer
-  OBJECT_DIR = CMakeFiles\output.dir
-  OBJECT_FILE_DIR = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_dbg.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
 
-build CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_dma.o: C_COMPILER__output_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_dma.c || cmake_object_order_depends_target_output
+build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_dci.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_dci.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
-  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER -D__TARGET_FPU_VFP
-  DEP_FILE = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_dma.o.d
-  FLAGS = -g -std=gnu99 -Og -g --target=arm-arm-none-eabi -mcpu=cortex-m4 -masm=armasm -Wa,armasm,--diag_suppress=A1950W -gdwarf-4
-  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer
-  OBJECT_DIR = CMakeFiles\output.dir
-  OBJECT_FILE_DIR = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_dci.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
 
-build CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_enet.o: C_COMPILER__output_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_enet.c || cmake_object_order_depends_target_output
+build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_dma.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_dma.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
-  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER -D__TARGET_FPU_VFP
-  DEP_FILE = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_enet.o.d
-  FLAGS = -g -std=gnu99 -Og -g --target=arm-arm-none-eabi -mcpu=cortex-m4 -masm=armasm -Wa,armasm,--diag_suppress=A1950W -gdwarf-4
-  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer
-  OBJECT_DIR = CMakeFiles\output.dir
-  OBJECT_FILE_DIR = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_dma.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
 
-build CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_exmc.o: C_COMPILER__output_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_exmc.c || cmake_object_order_depends_target_output
+build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_enet.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_enet.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
-  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER -D__TARGET_FPU_VFP
-  DEP_FILE = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_exmc.o.d
-  FLAGS = -g -std=gnu99 -Og -g --target=arm-arm-none-eabi -mcpu=cortex-m4 -masm=armasm -Wa,armasm,--diag_suppress=A1950W -gdwarf-4
-  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer
-  OBJECT_DIR = CMakeFiles\output.dir
-  OBJECT_FILE_DIR = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_enet.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
 
-build CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_exti.o: C_COMPILER__output_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_exti.c || cmake_object_order_depends_target_output
+build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_exmc.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_exmc.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
-  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER -D__TARGET_FPU_VFP
-  DEP_FILE = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_exti.o.d
-  FLAGS = -g -std=gnu99 -Og -g --target=arm-arm-none-eabi -mcpu=cortex-m4 -masm=armasm -Wa,armasm,--diag_suppress=A1950W -gdwarf-4
-  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer
-  OBJECT_DIR = CMakeFiles\output.dir
-  OBJECT_FILE_DIR = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_exmc.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
 
-build CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_fmc.o: C_COMPILER__output_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_fmc.c || cmake_object_order_depends_target_output
+build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_exti.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_exti.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
-  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER -D__TARGET_FPU_VFP
-  DEP_FILE = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_fmc.o.d
-  FLAGS = -g -std=gnu99 -Og -g --target=arm-arm-none-eabi -mcpu=cortex-m4 -masm=armasm -Wa,armasm,--diag_suppress=A1950W -gdwarf-4
-  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer
-  OBJECT_DIR = CMakeFiles\output.dir
-  OBJECT_FILE_DIR = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_exti.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
 
-build CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_fwdgt.o: C_COMPILER__output_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_fwdgt.c || cmake_object_order_depends_target_output
+build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_fmc.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_fmc.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
-  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER -D__TARGET_FPU_VFP
-  DEP_FILE = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_fwdgt.o.d
-  FLAGS = -g -std=gnu99 -Og -g --target=arm-arm-none-eabi -mcpu=cortex-m4 -masm=armasm -Wa,armasm,--diag_suppress=A1950W -gdwarf-4
-  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer
-  OBJECT_DIR = CMakeFiles\output.dir
-  OBJECT_FILE_DIR = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_fmc.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
 
-build CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_gpio.o: C_COMPILER__output_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_gpio.c || cmake_object_order_depends_target_output
+build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_fwdgt.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_fwdgt.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
-  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER -D__TARGET_FPU_VFP
-  DEP_FILE = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_gpio.o.d
-  FLAGS = -g -std=gnu99 -Og -g --target=arm-arm-none-eabi -mcpu=cortex-m4 -masm=armasm -Wa,armasm,--diag_suppress=A1950W -gdwarf-4
-  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer
-  OBJECT_DIR = CMakeFiles\output.dir
-  OBJECT_FILE_DIR = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_fwdgt.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
 
-build CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_i2c.o: C_COMPILER__output_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_i2c.c || cmake_object_order_depends_target_output
+build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_gpio.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_gpio.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
-  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER -D__TARGET_FPU_VFP
-  DEP_FILE = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_i2c.o.d
-  FLAGS = -g -std=gnu99 -Og -g --target=arm-arm-none-eabi -mcpu=cortex-m4 -masm=armasm -Wa,armasm,--diag_suppress=A1950W -gdwarf-4
-  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer
-  OBJECT_DIR = CMakeFiles\output.dir
-  OBJECT_FILE_DIR = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_gpio.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
 
-build CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_ipa.o: C_COMPILER__output_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_ipa.c || cmake_object_order_depends_target_output
+build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_i2c.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_i2c.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
-  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER -D__TARGET_FPU_VFP
-  DEP_FILE = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_ipa.o.d
-  FLAGS = -g -std=gnu99 -Og -g --target=arm-arm-none-eabi -mcpu=cortex-m4 -masm=armasm -Wa,armasm,--diag_suppress=A1950W -gdwarf-4
-  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer
-  OBJECT_DIR = CMakeFiles\output.dir
-  OBJECT_FILE_DIR = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_i2c.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
 
-build CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_iref.o: C_COMPILER__output_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_iref.c || cmake_object_order_depends_target_output
+build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_ipa.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_ipa.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
-  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER -D__TARGET_FPU_VFP
-  DEP_FILE = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_iref.o.d
-  FLAGS = -g -std=gnu99 -Og -g --target=arm-arm-none-eabi -mcpu=cortex-m4 -masm=armasm -Wa,armasm,--diag_suppress=A1950W -gdwarf-4
-  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer
-  OBJECT_DIR = CMakeFiles\output.dir
-  OBJECT_FILE_DIR = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_ipa.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
 
-build CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_misc.o: C_COMPILER__output_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_misc.c || cmake_object_order_depends_target_output
+build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_iref.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_iref.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
-  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER -D__TARGET_FPU_VFP
-  DEP_FILE = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_misc.o.d
-  FLAGS = -g -std=gnu99 -Og -g --target=arm-arm-none-eabi -mcpu=cortex-m4 -masm=armasm -Wa,armasm,--diag_suppress=A1950W -gdwarf-4
-  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer
-  OBJECT_DIR = CMakeFiles\output.dir
-  OBJECT_FILE_DIR = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_iref.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
 
-build CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_pmu.o: C_COMPILER__output_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_pmu.c || cmake_object_order_depends_target_output
+build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_misc.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_misc.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
-  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER -D__TARGET_FPU_VFP
-  DEP_FILE = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_pmu.o.d
-  FLAGS = -g -std=gnu99 -Og -g --target=arm-arm-none-eabi -mcpu=cortex-m4 -masm=armasm -Wa,armasm,--diag_suppress=A1950W -gdwarf-4
-  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer
-  OBJECT_DIR = CMakeFiles\output.dir
-  OBJECT_FILE_DIR = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_misc.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
 
-build CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_rcu.o: C_COMPILER__output_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_rcu.c || cmake_object_order_depends_target_output
+build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_pmu.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_pmu.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
-  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER -D__TARGET_FPU_VFP
-  DEP_FILE = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_rcu.o.d
-  FLAGS = -g -std=gnu99 -Og -g --target=arm-arm-none-eabi -mcpu=cortex-m4 -masm=armasm -Wa,armasm,--diag_suppress=A1950W -gdwarf-4
-  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer
-  OBJECT_DIR = CMakeFiles\output.dir
-  OBJECT_FILE_DIR = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_pmu.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
 
-build CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_rtc.o: C_COMPILER__output_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_rtc.c || cmake_object_order_depends_target_output
+build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_rcu.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_rcu.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
-  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER -D__TARGET_FPU_VFP
-  DEP_FILE = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_rtc.o.d
-  FLAGS = -g -std=gnu99 -Og -g --target=arm-arm-none-eabi -mcpu=cortex-m4 -masm=armasm -Wa,armasm,--diag_suppress=A1950W -gdwarf-4
-  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer
-  OBJECT_DIR = CMakeFiles\output.dir
-  OBJECT_FILE_DIR = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_rcu.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
 
-build CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_sdio.o: C_COMPILER__output_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_sdio.c || cmake_object_order_depends_target_output
+build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_rtc.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_rtc.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
-  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER -D__TARGET_FPU_VFP
-  DEP_FILE = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_sdio.o.d
-  FLAGS = -g -std=gnu99 -Og -g --target=arm-arm-none-eabi -mcpu=cortex-m4 -masm=armasm -Wa,armasm,--diag_suppress=A1950W -gdwarf-4
-  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer
-  OBJECT_DIR = CMakeFiles\output.dir
-  OBJECT_FILE_DIR = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_rtc.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
 
-build CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_spi.o: C_COMPILER__output_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_spi.c || cmake_object_order_depends_target_output
+build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_sdio.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_sdio.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
-  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER -D__TARGET_FPU_VFP
-  DEP_FILE = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_spi.o.d
-  FLAGS = -g -std=gnu99 -Og -g --target=arm-arm-none-eabi -mcpu=cortex-m4 -masm=armasm -Wa,armasm,--diag_suppress=A1950W -gdwarf-4
-  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer
-  OBJECT_DIR = CMakeFiles\output.dir
-  OBJECT_FILE_DIR = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_sdio.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
 
-build CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_syscfg.o: C_COMPILER__output_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_syscfg.c || cmake_object_order_depends_target_output
+build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_spi.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_spi.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
-  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER -D__TARGET_FPU_VFP
-  DEP_FILE = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_syscfg.o.d
-  FLAGS = -g -std=gnu99 -Og -g --target=arm-arm-none-eabi -mcpu=cortex-m4 -masm=armasm -Wa,armasm,--diag_suppress=A1950W -gdwarf-4
-  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer
-  OBJECT_DIR = CMakeFiles\output.dir
-  OBJECT_FILE_DIR = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_spi.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
 
-build CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_timer.o: C_COMPILER__output_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_timer.c || cmake_object_order_depends_target_output
+build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_syscfg.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_syscfg.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
-  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER -D__TARGET_FPU_VFP
-  DEP_FILE = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_timer.o.d
-  FLAGS = -g -std=gnu99 -Og -g --target=arm-arm-none-eabi -mcpu=cortex-m4 -masm=armasm -Wa,armasm,--diag_suppress=A1950W -gdwarf-4
-  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer
-  OBJECT_DIR = CMakeFiles\output.dir
-  OBJECT_FILE_DIR = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_syscfg.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
 
-build CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_tli.o: C_COMPILER__output_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_tli.c || cmake_object_order_depends_target_output
+build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_timer.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_timer.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
-  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER -D__TARGET_FPU_VFP
-  DEP_FILE = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_tli.o.d
-  FLAGS = -g -std=gnu99 -Og -g --target=arm-arm-none-eabi -mcpu=cortex-m4 -masm=armasm -Wa,armasm,--diag_suppress=A1950W -gdwarf-4
-  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer
-  OBJECT_DIR = CMakeFiles\output.dir
-  OBJECT_FILE_DIR = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_timer.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
 
-build CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_trng.o: C_COMPILER__output_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_trng.c || cmake_object_order_depends_target_output
+build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_tli.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_tli.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
-  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER -D__TARGET_FPU_VFP
-  DEP_FILE = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_trng.o.d
-  FLAGS = -g -std=gnu99 -Og -g --target=arm-arm-none-eabi -mcpu=cortex-m4 -masm=armasm -Wa,armasm,--diag_suppress=A1950W -gdwarf-4
-  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer
-  OBJECT_DIR = CMakeFiles\output.dir
-  OBJECT_FILE_DIR = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_tli.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
 
-build CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_usart.o: C_COMPILER__output_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_usart.c || cmake_object_order_depends_target_output
+build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_trng.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_trng.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
-  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER -D__TARGET_FPU_VFP
-  DEP_FILE = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_usart.o.d
-  FLAGS = -g -std=gnu99 -Og -g --target=arm-arm-none-eabi -mcpu=cortex-m4 -masm=armasm -Wa,armasm,--diag_suppress=A1950W -gdwarf-4
-  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer
-  OBJECT_DIR = CMakeFiles\output.dir
-  OBJECT_FILE_DIR = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_trng.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
 
-build CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_wwdgt.o: C_COMPILER__output_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_wwdgt.c || cmake_object_order_depends_target_output
+build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_usart.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_usart.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
-  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER -D__TARGET_FPU_VFP
-  DEP_FILE = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_wwdgt.o.d
-  FLAGS = -g -std=gnu99 -Og -g --target=arm-arm-none-eabi -mcpu=cortex-m4 -masm=armasm -Wa,armasm,--diag_suppress=A1950W -gdwarf-4
-  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer
-  OBJECT_DIR = CMakeFiles\output.dir
-  OBJECT_FILE_DIR = CMakeFiles\output.dir\libraries\GD32F4xx_standard_peripheral\Source
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_usart.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
 
-build CMakeFiles/output.dir/module/soft_timer/soft_timer.o: C_COMPILER__output_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/module/soft_timer/soft_timer.c || cmake_object_order_depends_target_output
+build CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_wwdgt.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_wwdgt.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
-  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER -D__TARGET_FPU_VFP
-  DEP_FILE = CMakeFiles\output.dir\module\soft_timer\soft_timer.o.d
-  FLAGS = -g -std=gnu99 -Og -g --target=arm-arm-none-eabi -mcpu=cortex-m4 -masm=armasm -Wa,armasm,--diag_suppress=A1950W -gdwarf-4
-  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer
-  OBJECT_DIR = CMakeFiles\output.dir
-  OBJECT_FILE_DIR = CMakeFiles\output.dir\module\soft_timer
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_wwdgt.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\GD32F4xx_standard_peripheral\Source
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
 
-build CMakeFiles/output.dir/user/bsp/bsp_led.o: C_COMPILER__output_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/user/bsp/bsp_led.c || cmake_object_order_depends_target_output
+build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/arch/ethernetif.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch/ethernetif.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
-  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER -D__TARGET_FPU_VFP
-  DEP_FILE = CMakeFiles\output.dir\user\bsp\bsp_led.o.d
-  FLAGS = -g -std=gnu99 -Og -g --target=arm-arm-none-eabi -mcpu=cortex-m4 -masm=armasm -Wa,armasm,--diag_suppress=A1950W -gdwarf-4
-  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer
-  OBJECT_DIR = CMakeFiles\output.dir
-  OBJECT_FILE_DIR = CMakeFiles\output.dir\user\bsp
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\arch\ethernetif.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\arch
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
 
-build CMakeFiles/output.dir/user/bsp/bsp_uart.o: C_COMPILER__output_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/user/bsp/bsp_uart.c || cmake_object_order_depends_target_output
+build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/api/api_lib.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/api/api_lib.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
-  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER -D__TARGET_FPU_VFP
-  DEP_FILE = CMakeFiles\output.dir\user\bsp\bsp_uart.o.d
-  FLAGS = -g -std=gnu99 -Og -g --target=arm-arm-none-eabi -mcpu=cortex-m4 -masm=armasm -Wa,armasm,--diag_suppress=A1950W -gdwarf-4
-  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer
-  OBJECT_DIR = CMakeFiles\output.dir
-  OBJECT_FILE_DIR = CMakeFiles\output.dir\user\bsp
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\api\api_lib.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\api
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
 
-build CMakeFiles/output.dir/startup/ARM/startup_gd32f407_427.o: ASM_COMPILER__output_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/startup/ARM/startup_gd32f407_427.s || cmake_object_order_depends_target_output
+build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/api/api_msg.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/api/api_msg.c || cmake_object_order_depends_target_output.elf
   CONFIG = Debug
-  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER -D__TARGET_FPU_VFP
-  DEP_FILE = CMakeFiles\output.dir\startup\ARM\startup_gd32f407_427.o.d
-  FLAGS = -Og -g --target=arm-arm-none-eabi -mcpu=cortex-m4 -masm=armasm -Wa,armasm,--diag_suppress=A1950W -gdwarf-4
-  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer
-  OBJECT_DIR = CMakeFiles\output.dir
-  OBJECT_FILE_DIR = CMakeFiles\output.dir\startup\ARM
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\api\api_msg.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\api
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
+
+build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/api/err.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/api/err.c || cmake_object_order_depends_target_output.elf
+  CONFIG = Debug
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\api\err.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\api
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
+
+build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/api/if_api.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/api/if_api.c || cmake_object_order_depends_target_output.elf
+  CONFIG = Debug
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\api\if_api.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\api
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
+
+build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/api/netbuf.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/api/netbuf.c || cmake_object_order_depends_target_output.elf
+  CONFIG = Debug
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\api\netbuf.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\api
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
+
+build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/api/netdb.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/api/netdb.c || cmake_object_order_depends_target_output.elf
+  CONFIG = Debug
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\api\netdb.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\api
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
+
+build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/api/netifapi.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/api/netifapi.c || cmake_object_order_depends_target_output.elf
+  CONFIG = Debug
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\api\netifapi.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\api
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
+
+build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/api/sockets.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/api/sockets.c || cmake_object_order_depends_target_output.elf
+  CONFIG = Debug
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\api\sockets.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\api
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
+
+build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/api/tcpip.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/api/tcpip.c || cmake_object_order_depends_target_output.elf
+  CONFIG = Debug
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\api\tcpip.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\api
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
+
+build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/altcp.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/altcp.c || cmake_object_order_depends_target_output.elf
+  CONFIG = Debug
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core\altcp.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
+
+build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/altcp_alloc.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/altcp_alloc.c || cmake_object_order_depends_target_output.elf
+  CONFIG = Debug
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core\altcp_alloc.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
+
+build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/altcp_tcp.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/altcp_tcp.c || cmake_object_order_depends_target_output.elf
+  CONFIG = Debug
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core\altcp_tcp.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
+
+build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/def.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/def.c || cmake_object_order_depends_target_output.elf
+  CONFIG = Debug
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core\def.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
+
+build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/dns.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/dns.c || cmake_object_order_depends_target_output.elf
+  CONFIG = Debug
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core\dns.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
+
+build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/inet_chksum.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/inet_chksum.c || cmake_object_order_depends_target_output.elf
+  CONFIG = Debug
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core\inet_chksum.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
+
+build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/init.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/init.c || cmake_object_order_depends_target_output.elf
+  CONFIG = Debug
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core\init.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
+
+build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/ip.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/ip.c || cmake_object_order_depends_target_output.elf
+  CONFIG = Debug
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core\ip.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
+
+build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/ipv4/autoip.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/ipv4/autoip.c || cmake_object_order_depends_target_output.elf
+  CONFIG = Debug
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core\ipv4\autoip.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core\ipv4
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
+
+build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/ipv4/dhcp.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/ipv4/dhcp.c || cmake_object_order_depends_target_output.elf
+  CONFIG = Debug
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core\ipv4\dhcp.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core\ipv4
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
+
+build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/ipv4/etharp.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/ipv4/etharp.c || cmake_object_order_depends_target_output.elf
+  CONFIG = Debug
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core\ipv4\etharp.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core\ipv4
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
+
+build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/ipv4/icmp.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/ipv4/icmp.c || cmake_object_order_depends_target_output.elf
+  CONFIG = Debug
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core\ipv4\icmp.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core\ipv4
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
+
+build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/ipv4/igmp.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/ipv4/igmp.c || cmake_object_order_depends_target_output.elf
+  CONFIG = Debug
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core\ipv4\igmp.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core\ipv4
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
+
+build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/ipv4/ip4.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/ipv4/ip4.c || cmake_object_order_depends_target_output.elf
+  CONFIG = Debug
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core\ipv4\ip4.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core\ipv4
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
+
+build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/ipv4/ip4_addr.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/ipv4/ip4_addr.c || cmake_object_order_depends_target_output.elf
+  CONFIG = Debug
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core\ipv4\ip4_addr.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core\ipv4
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
+
+build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/ipv4/ip4_frag.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/ipv4/ip4_frag.c || cmake_object_order_depends_target_output.elf
+  CONFIG = Debug
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core\ipv4\ip4_frag.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core\ipv4
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
+
+build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/mem.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/mem.c || cmake_object_order_depends_target_output.elf
+  CONFIG = Debug
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core\mem.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
+
+build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/memp.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/memp.c || cmake_object_order_depends_target_output.elf
+  CONFIG = Debug
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core\memp.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
+
+build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/netif.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/netif.c || cmake_object_order_depends_target_output.elf
+  CONFIG = Debug
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core\netif.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
+
+build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/pbuf.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/pbuf.c || cmake_object_order_depends_target_output.elf
+  CONFIG = Debug
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core\pbuf.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
+
+build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/raw.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/raw.c || cmake_object_order_depends_target_output.elf
+  CONFIG = Debug
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core\raw.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
+
+build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/stats.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/stats.c || cmake_object_order_depends_target_output.elf
+  CONFIG = Debug
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core\stats.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
+
+build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/sys.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/sys.c || cmake_object_order_depends_target_output.elf
+  CONFIG = Debug
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core\sys.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
+
+build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/tcp.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/tcp.c || cmake_object_order_depends_target_output.elf
+  CONFIG = Debug
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core\tcp.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
+
+build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/tcp_in.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/tcp_in.c || cmake_object_order_depends_target_output.elf
+  CONFIG = Debug
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core\tcp_in.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
+
+build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/tcp_out.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/tcp_out.c || cmake_object_order_depends_target_output.elf
+  CONFIG = Debug
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core\tcp_out.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
+
+build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/timeouts.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/timeouts.c || cmake_object_order_depends_target_output.elf
+  CONFIG = Debug
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core\timeouts.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
+
+build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/udp.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/core/udp.c || cmake_object_order_depends_target_output.elf
+  CONFIG = Debug
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core\udp.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\core
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
+
+build CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/netif/ethernet.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/netif/ethernet.c || cmake_object_order_depends_target_output.elf
+  CONFIG = Debug
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\netif\ethernet.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\lwip-2.1.3\src\netif
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
+
+build CMakeFiles/output.elf.dir/libraries/xprintf/src/xprintf.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/libraries/xprintf/src/xprintf.c || cmake_object_order_depends_target_output.elf
+  CONFIG = Debug
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\libraries\xprintf\src\xprintf.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\libraries\xprintf\src
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
+
+build CMakeFiles/output.elf.dir/module/soft_timer/soft_timer.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/module/soft_timer/soft_timer.c || cmake_object_order_depends_target_output.elf
+  CONFIG = Debug
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\module\soft_timer\soft_timer.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\module\soft_timer
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
+
+build CMakeFiles/output.elf.dir/user/bsp/bsp_enet.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/user/bsp/bsp_enet.c || cmake_object_order_depends_target_output.elf
+  CONFIG = Debug
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\user\bsp\bsp_enet.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\user\bsp
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
+
+build CMakeFiles/output.elf.dir/user/bsp/bsp_led.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/user/bsp/bsp_led.c || cmake_object_order_depends_target_output.elf
+  CONFIG = Debug
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\user\bsp\bsp_led.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\user\bsp
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
+
+build CMakeFiles/output.elf.dir/user/bsp/bsp_uart.c.obj: C_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/user/bsp/bsp_uart.c || cmake_object_order_depends_target_output.elf
+  CONFIG = Debug
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\user\bsp\bsp_uart.c.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g -std=gnu99 -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\user\bsp
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
+
+build CMakeFiles/output.elf.dir/startup/GCC/startup_gd32f407_427.S.obj: ASM_COMPILER__output.2eelf_unscanned_Debug E$:/GD32/01-Project/gd32_cmake/startup/GCC/startup_gd32f407_427.S || cmake_object_order_depends_target_output.elf
+  CONFIG = Debug
+  DEFINES = -DGD32F407 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\output.elf.dir\startup\GCC\startup_gd32f407_427.S.obj.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 --specs=nosys.specs --specs=nano.specs -x assembler-with-cpp -g -Og -g3
+  INCLUDES = -IE:/GD32/01-Project/gd32_cmake/libraries/GD32F4xx_standard_peripheral/Include -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS -IE:/GD32/01-Project/gd32_cmake/libraries/CMSIS/GD/GD32F4xx/Include -IE:/GD32/01-Project/gd32_cmake/app/inc -IE:/GD32/01-Project/gd32_cmake/user/bsp/inc -IE:/GD32/01-Project/gd32_cmake/user/sys/inc -IE:/GD32/01-Project/gd32_cmake/module/soft_timer -IE:/GD32/01-Project/gd32_cmake/libraries/xprintf/src -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/arch -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3/src/include -IE:/GD32/01-Project/gd32_cmake/libraries/lwip-2.1.3
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\output.elf.dir\startup\GCC
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
+  TARGET_PDB = output\output.elf.pdb
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target output
+# Link build statements for EXECUTABLE target output.elf
 
 
 #############################################
 # Link the executable output\output.elf
 
-build output/output.elf: C_EXECUTABLE_LINKER__output_Debug CMakeFiles/output.dir/app/gd32f4xx_it.o CMakeFiles/output.dir/app/main.o CMakeFiles/output.dir/libraries/CMSIS/GD/GD32F4xx/Source/system_gd32f4xx.o CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_adc.o CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_can.o CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_crc.o CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_ctc.o CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_dac.o CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_dbg.o CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_dci.o CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_dma.o CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_enet.o CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_exmc.o CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_exti.o CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_fmc.o CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_fwdgt.o CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_gpio.o CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_i2c.o CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_ipa.o CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_iref.o CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_misc.o CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_pmu.o CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_rcu.o CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_rtc.o CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_sdio.o CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_spi.o CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_syscfg.o CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_timer.o CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_tli.o CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_trng.o CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_usart.o CMakeFiles/output.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_wwdgt.o CMakeFiles/output.dir/module/soft_timer/soft_timer.o CMakeFiles/output.dir/user/bsp/bsp_led.o CMakeFiles/output.dir/user/bsp/bsp_uart.o CMakeFiles/output.dir/startup/ARM/startup_gd32f407_427.o
+build output/output.elf: C_EXECUTABLE_LINKER__output.2eelf_Debug CMakeFiles/output.elf.dir/app/gd32f4xx_it.c.obj CMakeFiles/output.elf.dir/app/main.c.obj CMakeFiles/output.elf.dir/libraries/CMSIS/GD/GD32F4xx/Source/syscalls.c.obj CMakeFiles/output.elf.dir/libraries/CMSIS/GD/GD32F4xx/Source/system_gd32f4xx.c.obj CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_adc.c.obj CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_can.c.obj CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_crc.c.obj CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_ctc.c.obj CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_dac.c.obj CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_dbg.c.obj CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_dci.c.obj CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_dma.c.obj CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_enet.c.obj CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_exmc.c.obj CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_exti.c.obj CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_fmc.c.obj CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_fwdgt.c.obj CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_gpio.c.obj CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_i2c.c.obj CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_ipa.c.obj CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_iref.c.obj CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_misc.c.obj CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_pmu.c.obj CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_rcu.c.obj CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_rtc.c.obj CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_sdio.c.obj CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_spi.c.obj CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_syscfg.c.obj CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_timer.c.obj CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_tli.c.obj CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_trng.c.obj CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_usart.c.obj CMakeFiles/output.elf.dir/libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_wwdgt.c.obj CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/arch/ethernetif.c.obj CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/api/api_lib.c.obj CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/api/api_msg.c.obj CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/api/err.c.obj CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/api/if_api.c.obj CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/api/netbuf.c.obj CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/api/netdb.c.obj CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/api/netifapi.c.obj CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/api/sockets.c.obj CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/api/tcpip.c.obj CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/altcp.c.obj CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/altcp_alloc.c.obj CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/altcp_tcp.c.obj CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/def.c.obj CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/dns.c.obj CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/inet_chksum.c.obj CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/init.c.obj CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/ip.c.obj CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/ipv4/autoip.c.obj CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/ipv4/dhcp.c.obj CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/ipv4/etharp.c.obj CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/ipv4/icmp.c.obj CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/ipv4/igmp.c.obj CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/ipv4/ip4.c.obj CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/ipv4/ip4_addr.c.obj CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/ipv4/ip4_frag.c.obj CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/mem.c.obj CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/memp.c.obj CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/netif.c.obj CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/pbuf.c.obj CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/raw.c.obj CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/stats.c.obj CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/sys.c.obj CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/tcp.c.obj CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/tcp_in.c.obj CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/tcp_out.c.obj CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/timeouts.c.obj CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/core/udp.c.obj CMakeFiles/output.elf.dir/libraries/lwip-2.1.3/src/netif/ethernet.c.obj CMakeFiles/output.elf.dir/libraries/xprintf/src/xprintf.c.obj CMakeFiles/output.elf.dir/module/soft_timer/soft_timer.c.obj CMakeFiles/output.elf.dir/user/bsp/bsp_enet.c.obj CMakeFiles/output.elf.dir/user/bsp/bsp_led.c.obj CMakeFiles/output.elf.dir/user/bsp/bsp_uart.c.obj CMakeFiles/output.elf.dir/startup/GCC/startup_gd32f407_427.S.obj
   CONFIG = Debug
-  FLAGS = -g
-  LINK_FLAGS = --strict --scatter E:/GD32/01-Project/gd32_cmake/startup/linker_scripts/link.sct --info=sizes,totals,unused,veneers --map --list=E:/GD32/01-Project/gd32_cmake/build/output/output.map
-  OBJECT_DIR = CMakeFiles\output.dir
-  POST_BUILD = C:\Windows\system32\cmd.exe /C "cd /D E:\GD32\01-Project\gd32_cmake\build && C:\Keil_v5\ARM\ARMCLANG\bin\fromelf.exe -i32 --output=E:/GD32/01-Project/gd32_cmake/build/output/output.hex E:/GD32/01-Project/gd32_cmake/build/output/output.elf && C:\Keil_v5\ARM\ARMCLANG\bin\fromelf.exe -bin --output=E:/GD32/01-Project/gd32_cmake/build/output/output.bin E:/GD32/01-Project/gd32_cmake/build/output/output.elf && C:\Keil_v5\ARM\ARMCLANG\bin\fromelf.exe --info=sizes E:/GD32/01-Project/gd32_cmake/build/output/output.elf"
+  FLAGS = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -Wall -Wdouble-promotion -Wno-sign-compare -Wno-psabi -g3 -ggdb3 --specs=nosys.specs --specs=nano.specs -g
+  LINK_FLAGS = -Wl,--gc-sections,--no-warn-rwx-segments,--print-memory-usage -Wl,-Map=E:/GD32/01-Project/gd32_cmake/build/output/output.map -Wl,--gc-sections,--no-warn-rwx-segments,--print-memory-usage -T E:/GD32/01-Project/gd32_cmake/startup/linker_scripts/gd32f4xx_flash.ld
+  OBJECT_DIR = CMakeFiles\output.elf.dir
+  POST_BUILD = C:\Windows\system32\cmd.exe /C "cd /D E:\GD32\01-Project\gd32_cmake\build && C:\SysGCC\arm-eabi\bin\arm-none-eabi-objcopy.exe -Obinary E:/GD32/01-Project/gd32_cmake/build/output/output.elf E:/GD32/01-Project/gd32_cmake/build/output/output.bin && C:\SysGCC\arm-eabi\bin\arm-none-eabi-objcopy.exe -Oihex E:/GD32/01-Project/gd32_cmake/build/output/output.elf E:/GD32/01-Project/gd32_cmake/build/output/output.hex && C:\SysGCC\arm-eabi\bin\arm-none-eabi-size.exe E:/GD32/01-Project/gd32_cmake/build/output/output.elf"
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\output.elf.dir\
   TARGET_FILE = output\output.elf
-  TARGET_PDB = output.elf.dbg
+  TARGET_PDB = output\output.elf.pdb
+  RSP_FILE = CMakeFiles\output.elf.rsp
 
 
 #############################################
@@ -418,8 +954,6 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build output: phony output/output.elf
-
 build output.elf: phony output/output.elf
 
 # =============================================================================
@@ -439,14 +973,14 @@ build all: phony output/output.elf
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja E$:/GD32/01-Project/gd32_cmake/build/cmake_install.cmake: RERUN_CMAKE | C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeASMInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeCInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeCommonLanguageInclude.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeGenericSystem.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeInitializeConfigs.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeLanguageInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeSystemSpecificInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeSystemSpecificInitialize.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/ARMClang-ASM.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/ARMClang-C.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/ARMClang.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/Clang-C.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/Clang.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/GNU.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Internal/CMakeASMLinkerInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Internal/CMakeCLinkerInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Platform/Generic.cmake CMakeCache.txt CMakeFiles/4.0.2/CMakeASMCompiler.cmake CMakeFiles/4.0.2/CMakeCCompiler.cmake CMakeFiles/4.0.2/CMakeSystem.cmake E$:/GD32/01-Project/gd32_cmake/CMakeLists.txt E$:/GD32/01-Project/gd32_cmake/toolchain.cmake
+build build.ninja E$:/GD32/01-Project/gd32_cmake/build/cmake_install.cmake: RERUN_CMAKE | C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeASMCompiler.cmake.in C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeASMInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeCCompiler.cmake.in C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeCCompilerABI.c C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeCInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeCXXCompiler.cmake.in C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeCXXCompilerABI.cpp C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeCXXInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeCommonLanguageInclude.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeCompilerIdDetection.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerSupport.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineSystem.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeFindBinUtils.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeGenericSystem.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeInitializeConfigs.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeLanguageInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeNinjaFindMake.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeParseImplicitLinkInfo.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeParseLibraryArchitecture.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeSystem.cmake.in C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeSystemSpecificInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeSystemSpecificInitialize.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeTestASMCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeTestCompilerCommon.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/GNU-ASM.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/GNU-C.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/GNU-CXX-CXXImportStd.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/GNU-CXX.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/GNU-FindBinUtils.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/GNU.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/TI-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Internal/CMakeASMLinkerInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Internal/CMakeCLinkerInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Internal/CMakeInspectASMLinker.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Internal/CMakeInspectCLinker.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Internal/CMakeInspectCXXLinker.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Internal/FeatureTesting.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Platform/Generic.cmake CMakeCache.txt CMakeFiles/4.0.2/CMakeASMCompiler.cmake CMakeFiles/4.0.2/CMakeCCompiler.cmake CMakeFiles/4.0.2/CMakeCXXCompiler.cmake CMakeFiles/4.0.2/CMakeSystem.cmake E$:/GD32/01-Project/gd32_cmake/CMakeLists.txt E$:/GD32/01-Project/gd32_cmake/toolchain.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeASMInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeCInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeCommonLanguageInclude.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeGenericSystem.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeInitializeConfigs.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeLanguageInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeSystemSpecificInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeSystemSpecificInitialize.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/ARMClang-ASM.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/ARMClang-C.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/ARMClang.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/Clang-C.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/Clang.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/GNU.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Internal/CMakeASMLinkerInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Internal/CMakeCLinkerInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Platform/Generic.cmake CMakeCache.txt CMakeFiles/4.0.2/CMakeASMCompiler.cmake CMakeFiles/4.0.2/CMakeCCompiler.cmake CMakeFiles/4.0.2/CMakeSystem.cmake E$:/GD32/01-Project/gd32_cmake/CMakeLists.txt E$:/GD32/01-Project/gd32_cmake/toolchain.cmake: phony
+build C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeASMCompiler.cmake.in C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeASMInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeCCompiler.cmake.in C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeCCompilerABI.c C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeCInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeCXXCompiler.cmake.in C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeCXXCompilerABI.cpp C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeCXXInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeCommonLanguageInclude.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeCompilerIdDetection.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerSupport.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineSystem.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeFindBinUtils.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeGenericSystem.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeInitializeConfigs.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeLanguageInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeNinjaFindMake.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeParseImplicitLinkInfo.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeParseLibraryArchitecture.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeSystem.cmake.in C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeSystemSpecificInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeSystemSpecificInitialize.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeTestASMCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeTestCompilerCommon.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/GNU-ASM.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/GNU-C.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/GNU-CXX-CXXImportStd.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/GNU-CXX.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/GNU-FindBinUtils.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/GNU.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/TI-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Internal/CMakeASMLinkerInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Internal/CMakeCLinkerInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Internal/CMakeInspectASMLinker.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Internal/CMakeInspectCLinker.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Internal/CMakeInspectCXXLinker.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Internal/FeatureTesting.cmake C$:/SysGCC/cmake/share/cmake-4.0/Modules/Platform/Generic.cmake CMakeCache.txt CMakeFiles/4.0.2/CMakeASMCompiler.cmake CMakeFiles/4.0.2/CMakeCCompiler.cmake CMakeFiles/4.0.2/CMakeCXXCompiler.cmake CMakeFiles/4.0.2/CMakeSystem.cmake E$:/GD32/01-Project/gd32_cmake/CMakeLists.txt E$:/GD32/01-Project/gd32_cmake/toolchain.cmake: phony
 
 
 #############################################

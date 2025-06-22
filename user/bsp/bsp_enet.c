@@ -9,14 +9,11 @@
 #include "netif/etharp.h"
 #include "lwip/dhcp.h"
 #include "ethernetif.h"
-#include "stdint.h"
-#include <stdio.h>
 #include "lwip/priv/tcp_priv.h"
 #include "lwip/timeouts.h"
 
 
 #define MAX_DHCP_TRIES        4
-
 
 static __IO uint32_t enet_init_status = 0;
 uint32_t tempreg;
@@ -383,7 +380,7 @@ static void lwip_comm_default_ip_set(__lwip_dev *lwipx)
     lwipx->ip[0] = 192;
     lwipx->ip[1] = 168;
     lwipx->ip[2] = 1;
-    lwipx->ip[3] = 100;
+    lwipx->ip[3] = 123;
     /* 默认子网掩码:255.255.255.0 */
     lwipx->netmask[0] = 255;
     lwipx->netmask[1] = 255;

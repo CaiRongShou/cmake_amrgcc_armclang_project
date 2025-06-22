@@ -3,7 +3,7 @@ set(CMAKE_FIND_ROOT_PATH_MODE_PROGRAM NEVER) # 查找编译器时不使用根目
 set(CMAKE_FIND_ROOT_PATH_MODE_LIBRARY ONLY) #  查找库文件时只使用根目录
 set(CMAKE_FIND_ROOT_PATH_MODE_INCLUDE ONLY) #  查找头文件时只使用根目录
 set(CMAKE_FIND_ROOT_PATH_MODE_PACKAGE ONLY) # 查找包时只使用根目录
-option(USER_ARMGCC "user armgcc" OFF) # 定义类似一个宏，参数1 宏名称，参数2 宏定义内容，参数3 是否定义
+option(USER_ARMGCC "user armgcc" ON) # 定义类似一个宏，参数1 宏名称，参数2 宏定义描述，参数3 是否定义
 
 if(USER_ARMGCC)
     set(COMPATIBLE_ROOT_PATH C:/SysGCC/arm-eabi/bin) # armgcc路径

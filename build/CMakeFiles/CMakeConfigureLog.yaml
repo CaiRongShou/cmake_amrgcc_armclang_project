@@ -18,67 +18,25 @@ events:
       - "CMakeLists.txt:12 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
-      Compiler: C:/Keil_v5/ARM/ARMCLANG/bin/armclang.exe 
+      Compiler: C:/SysGCC/arm-eabi/bin/arm-none-eabi-gcc.exe 
       Build flags: 
       Id flags:  
       
       The output was:
       1
-      armclang: fatal error: no target architecture given; use --target=arm-arm-none-eabi or --target=aarch64-arm-none-eabi
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:12 (project)"
-    message: |
-      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
-      Compiler: C:/Keil_v5/ARM/ARMCLANG/bin/armclang.exe 
-      Build flags: 
-      Id flags: -c 
-      
-      The output was:
-      1
-      armclang: fatal error: no target architecture given; use --target=arm-arm-none-eabi or --target=aarch64-arm-none-eabi
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:12 (project)"
-    message: |
-      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
-      Compiler: C:/Keil_v5/ARM/ARMCLANG/bin/armclang.exe 
-      Build flags: 
-      Id flags: -Aa 
-      
-      The output was:
-      1
-      armclang: fatal error: no target architecture given; use --target=arm-arm-none-eabi or --target=aarch64-arm-none-eabi
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:12 (project)"
-    message: |
-      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
-      Compiler: C:/Keil_v5/ARM/ARMCLANG/bin/armclang.exe 
-      Build flags: 
-      Id flags: -D__CLASSIC_C__ 
-      
-      The output was:
-      1
-      armclang: fatal error: no target architecture given; use --target=arm-arm-none-eabi or --target=aarch64-arm-none-eabi
+      C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld.exe: C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1\\libc.a(libc_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x28): undefined reference to `_exit'
+      C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld.exe: C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1\\libc.a(libc_a-closer.o): in function `_close_r':
+      closer.c:(.text._close_r+0x18): undefined reference to `_close'
+      C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld.exe: C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1\\libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      lseekr.c:(.text._lseek_r+0x24): undefined reference to `_lseek'
+      C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld.exe: C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1\\libc.a(libc_a-readr.o): in function `_read_r':
+      readr.c:(.text._read_r+0x24): undefined reference to `_read'
+      C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld.exe: C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1\\libc.a(libc_a-writer.o): in function `_write_r':
+      writer.c:(.text._write_r+0x24): undefined reference to `_write'
+      C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld.exe: C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1\\libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      sbrkr.c:(.text._sbrk_r+0x18): undefined reference to `_sbrk'
+      collect2.exe: error: ld returned 1 exit status
       
       
   -
@@ -90,58 +48,71 @@ events:
       - "CMakeLists.txt:12 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-      Compiler: C:/Keil_v5/ARM/ARMCLANG/bin/armclang.exe 
+      Compiler: C:/SysGCC/arm-eabi/bin/arm-none-eabi-gcc.exe 
       Build flags: 
-      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      Id flags: -c 
       
       The output was:
       0
       
       
-      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
       
-      The C compiler identification is ARMClang, found in:
-        E:/GD32/01-Project/gd32_cmake/build/CMakeFiles/4.0.2/CompilerIdC/a.out
+      The C compiler identification is GNU, found in:
+        E:/GD32/01-Project/gd32_cmake/build/CMakeFiles/4.0.2/CompilerIdC/CMakeCCompilerId.o
       
   -
     kind: "message-v1"
     backtrace:
-      - "C:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1284 (message)"
-      - "C:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:12 (project)"
     message: |
-      Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
-      Product: MDK Plus 5.38
-      Component: Arm Compiler for Embedded 6.19
-      Tool: armclang [5e73cb00]
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/SysGCC/arm-eabi/bin/arm-none-eabi-c++.exe 
+      Build flags: 
+      Id flags:  
       
-      Target: unspecified-arm-none-unspecified
+      The output was:
+      1
+      C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld.exe: C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1\\libc.a(libc_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x28): undefined reference to `_exit'
+      C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld.exe: C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1\\libc.a(libc_a-closer.o): in function `_close_r':
+      closer.c:(.text._close_r+0x18): undefined reference to `_close'
+      C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld.exe: C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1\\libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      lseekr.c:(.text._lseek_r+0x24): undefined reference to `_lseek'
+      C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld.exe: C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1\\libc.a(libc_a-readr.o): in function `_read_r':
+      readr.c:(.text._read_r+0x24): undefined reference to `_read'
+      C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld.exe: C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1\\libc.a(libc_a-writer.o): in function `_write_r':
+      writer.c:(.text._write_r+0x24): undefined reference to `_write'
+      C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld.exe: C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1\\libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      sbrkr.c:(.text._sbrk_r+0x18): undefined reference to `_sbrk'
+      collect2.exe: error: ld returned 1 exit status
+      
+      
   -
     kind: "message-v1"
     backtrace:
-      - "C:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1284 (message)"
-      - "C:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:12 (project)"
     message: |
-      Checking whether the ASM compiler is AppleClang using "--version" did not match "(Apple (clang|LLVM) version)":
-      Product: MDK Plus 5.38
-      Component: Arm Compiler for Embedded 6.19
-      Tool: armclang [5e73cb00]
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/SysGCC/arm-eabi/bin/arm-none-eabi-c++.exe 
+      Build flags: 
+      Id flags: -c 
       
-      Target: unspecified-arm-none-unspecified
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1284 (message)"
-      - "C:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
-      - "CMakeLists.txt:12 (project)"
-    message: |
-      Checking whether the ASM compiler is Clang using "--version" did not match "(clang version)":
-      Product: MDK Plus 5.38
-      Component: Arm Compiler for Embedded 6.19
-      Tool: armclang [5e73cb00]
+      The output was:
+      0
       
-      Target: unspecified-arm-none-unspecified
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        E:/GD32/01-Project/gd32_cmake/build/CMakeFiles/4.0.2/CompilerIdCXX/CMakeCXXCompilerId.o
+      
   -
     kind: "message-v1"
     backtrace:
@@ -149,12 +120,12 @@ events:
       - "C:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
       - "CMakeLists.txt:12 (project)"
     message: |
-      Checking whether the ASM compiler is ARMClang using "--version" matched "armclang":
-      Product: MDK Plus 5.38
-      Component: Arm Compiler for Embedded 6.19
-      Tool: armclang [5e73cb00]
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      arm-none-eabi-gcc.exe (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 14.2.1 20241119
+      Copyright (C) 2024 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
       
-      Target: unspecified-arm-none-unspecified
   -
     kind: "try_compile-v1"
     backtrace:
@@ -164,10 +135,9 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "E:/GD32/01-Project/gd32_cmake/build/CMakeFiles/CMakeScratch/TryCompile-d90ka7"
-      binary: "E:/GD32/01-Project/gd32_cmake/build/CMakeFiles/CMakeScratch/TryCompile-d90ka7"
+      source: "E:/GD32/01-Project/gd32_cmake/build/CMakeFiles/CMakeScratch/TryCompile-9skw03"
+      binary: "E:/GD32/01-Project/gd32_cmake/build/CMakeFiles/CMakeScratch/TryCompile-9skw03"
     cmakeVariables:
-      CMAKE_C_COMPILER_TARGET: "arm-arm-none-eabi"
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -175,25 +145,42 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'E:/GD32/01-Project/gd32_cmake/build/CMakeFiles/CMakeScratch/TryCompile-d90ka7'
+        Change Dir: 'E:/GD32/01-Project/gd32_cmake/build/CMakeFiles/CMakeScratch/TryCompile-9skw03'
         
-        Run Build Command(s): C:/SysGCC/Ninja/ninja.exe -v cmTC_e4fbf
-        [1/2] C:\\Keil_v5\\ARM\\ARMCLANG\\bin\\armclang.exe --target=arm-arm-none-eabi   -v -MD -MT CMakeFiles/cmTC_e4fbf.dir/CMakeCCompilerABI.o -MF CMakeFiles\\cmTC_e4fbf.dir\\CMakeCCompilerABI.o.d -o CMakeFiles/cmTC_e4fbf.dir/CMakeCCompilerABI.o -c C:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeCCompilerABI.c
-        Product: MDK Plus 5.38
-        Component: Arm Compiler for Embedded 6.19
-        Tool: armclang [5e73cb00]
+        Run Build Command(s): C:/SysGCC/Ninja/ninja.exe -v cmTC_b9bb0
+        [1/2] C:\\SysGCC\\arm-eabi\\bin\\arm-none-eabi-gcc.exe   -v -o CMakeFiles/cmTC_b9bb0.dir/CMakeCCompilerABI.c.obj -c C:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=C:\\SysGCC\\arm-eabi\\bin\\arm-none-eabi-gcc.exe
+        Target: arm-none-eabi
+        Configured with: /data/jenkins/workspace/GNU-toolchain/arm-14/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-14/build-mingw-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-14/build-mingw-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-14/build-mingw-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-14/build-mingw-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-14/build-mingw-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-14/build-mingw-arm-none-eabi/install/arm-none-eabi --with-bugurl=https://bugs.linaro.org/ --with-multilib-list=aprofile,rmprofile --with-libiconv-prefix=/data/jenkins/workspace/GNU-toolchain/arm-14/build-mingw-arm-none-eabi/host-tools --with-libiconv-prefix=/data/jenkins/workspace/GNU-toolchain/arm-14/build-mingw-arm-none-eabi/host-tools --enable-mingw-wildcard --host=i686-w64-mingw32 --with-pkgversion='Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)'
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 14.2.1 20241119 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b9bb0.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_b9bb0.dir/'
+         C:/SysGCC/arm-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1.exe -quiet -v -iprefix C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot C:/SysGCC/arm-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ C:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_b9bb0.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -o C:\\Users\\crs\\AppData\\Local\\Temp\\ccJyTcWQ.s
+        GNU C17 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) version 14.2.1 20241119 (arm-none-eabi)
+        	compiled by GNU C version 9.3-win32 20200320, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
         
-        Target: arm-arm-none-eabi
-        warning: 'armv4t' is unsupported in this version of the product
-         (in-process)
-         "C:\\\\Keil_v5\\\\ARM\\\\ARMCLANG\\\\bin\\\\armclang.exe" -cc1 -triple armv4t-arm-none-eabi -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mframe-pointer=none -menable-no-infs -menable-no-nans -fmath-errno -fno-signed-zeros -fdenormal-fp-math=preserve-sign,preserve-sign -ffp-contract=on -fno-rounding-math -ffinite-math-only -mconstructor-aliases -target-cpu arm7tdmi -target-feature +soft-float-abi -target-feature -vfp2 -target-feature -vfp2sp -target-feature -vfp3 -target-feature -vfp3d16 -target-feature -vfp3d16sp -target-feature -vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature -fp64 -target-feature -d32 -target-feature -neon -target-feature -sha2 -target-feature -aes -target-feature -dotprod -target-feature -fp16fml -target-feature -bf16 -target-feature -mve.fp -target-feature -fpregs -target-feature +strict-align -target-abi aapcs -mfloat-abi soft -Wunaligned-access -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -fforce-dwarf-frame -v -ffunction-sections -fdata-sections "-fcoverage-compilation-dir=E:\\\\GD32\\\\01-Project\\\\gd32_cmake\\\\build\\\\CMakeFiles\\\\CMakeScratch\\\\TryCompile-d90ka7" -resource-dir "C:\\\\Keil_v5\\\\ARM\\\\ARMCLANG\\\\lib\\\\clang\\\\16.0.0" -dependency-file "CMakeFiles\\\\cmTC_e4fbf.dir\\\\CMakeCCompilerABI.o.d" -MT CMakeFiles/cmTC_e4fbf.dir/CMakeCCompilerABI.o -sys-header-deps -internal-isystem "C:\\\\Keil_v5\\\\ARM\\\\ARMCLANG\\\\bin\\\\..\\\\include" -nobuiltininc "-fdebug-compilation-dir=E:\\\\GD32\\\\01-Project\\\\gd32_cmake\\\\build\\\\CMakeFiles\\\\CMakeScratch\\\\TryCompile-d90ka7" -ferror-limit 19 -fvisibility=hidden -fno-signed-char -fgnuc-version=4.2.1 -fsuppress-licensing -aggressive-jump-threading -o CMakeFiles/cmTC_e4fbf.dir/CMakeCCompilerABI.o -x c C:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeCCompilerABI.c
-        warning: 'arm7tdmi' is unsupported in this version of the product
-        Arm Compiler for Embedded 6.19 -cc1 default target aarch64-arm-none-eabi
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/SysGCC/arm-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/14.2.1/include"
+        ignoring nonexistent directory "C:/SysGCC/arm-eabi/bin/../arm-none-eabi/data/jenkins/workspace/GNU-toolchain/arm-14/build-mingw-arm-none-eabi/install/lib/gcc/arm-none-eabi/14.2.1/../../../../include"
+        ignoring duplicate directory "C:/SysGCC/arm-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/14.2.1/include-fixed"
+        ignoring duplicate directory "C:/SysGCC/arm-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include"
+        ignoring duplicate directory "C:/SysGCC/arm-eabi/bin/../arm-none-eabi/include"
         #include "..." search starts here:
-        #include <...> search starts here:\x0d
-         C:\\Keil_v5\\ARM\\ARMCLANG\\bin\\..\\include\x0d
-        End of search list.\x0d
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Keil_v5\\ARM\\ARMCLANG\\bin\\armar.exe --create -cr libcmTC_e4fbf.a  CMakeFiles/cmTC_e4fbf.dir/CMakeCCompilerABI.o && cd ."
+        #include <...> search starts here:
+         C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/include
+         C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/include-fixed
+         C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include
+        End of search list.
+        Compiler executable checksum: 63ce4b303c7eb47a24bbf869f5c70b36
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b9bb0.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_b9bb0.dir/'
+         C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_b9bb0.dir/CMakeCCompilerABI.c.obj C:\\Users\\crs\\AppData\\Local\\Temp\\ccJyTcWQ.s
+        GNU assembler version 2.43.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 2.43.1.20241119
+        COMPILER_PATH=C:/SysGCC/arm-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/;C:/SysGCC/arm-eabi/bin/../libexec/gcc/;C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/;C:/SysGCC/arm-eabi/bin/../lib/gcc/;C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/;C:/SysGCC/arm-eabi/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b9bb0.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_b9bb0.dir/CMakeCCompilerABI.c.'\x0d
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\SysGCC\\cmake\\bin\\cmake.exe -E rm -f libcmTC_b9bb0.a && C:\\SysGCC\\arm-eabi\\bin\\arm-none-eabi-ar.exe qc libcmTC_b9bb0.a  CMakeFiles/cmTC_b9bb0.dir/CMakeCCompilerABI.c.obj && C:\\SysGCC\\arm-eabi\\bin\\arm-none-eabi-ranlib.exe libcmTC_b9bb0.a && cd ."
         
       exitCode: 0
   -
@@ -206,10 +193,14 @@ events:
       Parsed C implicit include dir info: rv=done
         found start of include info
         found start of implicit include info
-          add: [C:/Keil_v5/ARM/ARMCLANG/bin/../include]
+          add: [C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/include]
+          add: [C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/include-fixed]
+          add: [C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include]
         end of search list found
-        collapse include dir [C:/Keil_v5/ARM/ARMCLANG/bin/../include] ==> [C:/Keil_v5/ARM/ARMCLANG/include]
-        implicit include dirs: [C:/Keil_v5/ARM/ARMCLANG/include]
+        collapse include dir [C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/include] ==> [C:/SysGCC/arm-eabi/lib/gcc/arm-none-eabi/14.2.1/include]
+        collapse include dir [C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/include-fixed] ==> [C:/SysGCC/arm-eabi/lib/gcc/arm-none-eabi/14.2.1/include-fixed]
+        collapse include dir [C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include] ==> [C:/SysGCC/arm-eabi/arm-none-eabi/include]
+        implicit include dirs: [C:/SysGCC/arm-eabi/lib/gcc/arm-none-eabi/14.2.1/include;C:/SysGCC/arm-eabi/lib/gcc/arm-none-eabi/14.2.1/include-fixed;C:/SysGCC/arm-eabi/arm-none-eabi/include]
       
       
   -
@@ -220,27 +211,204 @@ events:
       - "CMakeLists.txt:12 (project)"
     message: |
       Parsed C implicit link information:
-        link line regex: [^( *|.*[/\\])(armlink\\.exe|;ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(armlink\\.exe|;ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'E:/GD32/01-Project/gd32_cmake/build/CMakeFiles/CMakeScratch/TryCompile-d90ka7']
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: 'E:/GD32/01-Project/gd32_cmake/build/CMakeFiles/CMakeScratch/TryCompile-9skw03']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/SysGCC/Ninja/ninja.exe -v cmTC_e4fbf]
-        ignore line: [[1/2] C:\\Keil_v5\\ARM\\ARMCLANG\\bin\\armclang.exe --target=arm-arm-none-eabi   -v -MD -MT CMakeFiles/cmTC_e4fbf.dir/CMakeCCompilerABI.o -MF CMakeFiles\\cmTC_e4fbf.dir\\CMakeCCompilerABI.o.d -o CMakeFiles/cmTC_e4fbf.dir/CMakeCCompilerABI.o -c C:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeCCompilerABI.c]
-        ignore line: [Product: MDK Plus 5.38]
-        ignore line: [Component: Arm Compiler for Embedded 6.19]
-        ignore line: [Tool: armclang [5e73cb00]]
+        ignore line: [Run Build Command(s): C:/SysGCC/Ninja/ninja.exe -v cmTC_b9bb0]
+        ignore line: [[1/2] C:\\SysGCC\\arm-eabi\\bin\\arm-none-eabi-gcc.exe   -v -o CMakeFiles/cmTC_b9bb0.dir/CMakeCCompilerABI.c.obj -c C:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\SysGCC\\arm-eabi\\bin\\arm-none-eabi-gcc.exe]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: /data/jenkins/workspace/GNU-toolchain/arm-14/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-14/build-mingw-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-14/build-mingw-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-14/build-mingw-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-14/build-mingw-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-14/build-mingw-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-14/build-mingw-arm-none-eabi/install/arm-none-eabi --with-bugurl=https://bugs.linaro.org/ --with-multilib-list=aprofile,rmprofile --with-libiconv-prefix=/data/jenkins/workspace/GNU-toolchain/arm-14/build-mingw-arm-none-eabi/host-tools --with-libiconv-prefix=/data/jenkins/workspace/GNU-toolchain/arm-14/build-mingw-arm-none-eabi/host-tools --enable-mingw-wildcard --host=i686-w64-mingw32 --with-pkgversion='Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)']
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 14.2.1 20241119 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b9bb0.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_b9bb0.dir/']
+        ignore line: [ C:/SysGCC/arm-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1.exe -quiet -v -iprefix C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot C:/SysGCC/arm-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ C:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_b9bb0.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -o C:\\Users\\crs\\AppData\\Local\\Temp\\ccJyTcWQ.s]
+        ignore line: [GNU C17 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) version 14.2.1 20241119 (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version 9.3-win32 20200320  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
         ignore line: []
-        ignore line: [Target: arm-arm-none-eabi]
-        ignore line: [warning: 'armv4t' is unsupported in this version of the product]
-        ignore line: [ (in-process)]
-        ignore line: [ "C:\\\\Keil_v5\\\\ARM\\\\ARMCLANG\\\\bin\\\\armclang.exe" -cc1 -triple armv4t-arm-none-eabi -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mframe-pointer=none -menable-no-infs -menable-no-nans -fmath-errno -fno-signed-zeros -fdenormal-fp-math=preserve-sign preserve-sign -ffp-contract=on -fno-rounding-math -ffinite-math-only -mconstructor-aliases -target-cpu arm7tdmi -target-feature +soft-float-abi -target-feature -vfp2 -target-feature -vfp2sp -target-feature -vfp3 -target-feature -vfp3d16 -target-feature -vfp3d16sp -target-feature -vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature -fp64 -target-feature -d32 -target-feature -neon -target-feature -sha2 -target-feature -aes -target-feature -dotprod -target-feature -fp16fml -target-feature -bf16 -target-feature -mve.fp -target-feature -fpregs -target-feature +strict-align -target-abi aapcs -mfloat-abi soft -Wunaligned-access -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -fforce-dwarf-frame -v -ffunction-sections -fdata-sections "-fcoverage-compilation-dir=E:\\\\GD32\\\\01-Project\\\\gd32_cmake\\\\build\\\\CMakeFiles\\\\CMakeScratch\\\\TryCompile-d90ka7" -resource-dir "C:\\\\Keil_v5\\\\ARM\\\\ARMCLANG\\\\lib\\\\clang\\\\16.0.0" -dependency-file "CMakeFiles\\\\cmTC_e4fbf.dir\\\\CMakeCCompilerABI.o.d" -MT CMakeFiles/cmTC_e4fbf.dir/CMakeCCompilerABI.o -sys-header-deps -internal-isystem "C:\\\\Keil_v5\\\\ARM\\\\ARMCLANG\\\\bin\\\\..\\\\include" -nobuiltininc "-fdebug-compilation-dir=E:\\\\GD32\\\\01-Project\\\\gd32_cmake\\\\build\\\\CMakeFiles\\\\CMakeScratch\\\\TryCompile-d90ka7" -ferror-limit 19 -fvisibility=hidden -fno-signed-char -fgnuc-version=4.2.1 -fsuppress-licensing -aggressive-jump-threading -o CMakeFiles/cmTC_e4fbf.dir/CMakeCCompilerABI.o -x c C:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeCCompilerABI.c]
-        ignore line: [warning: 'arm7tdmi' is unsupported in this version of the product]
-        ignore line: [Arm Compiler for Embedded 6.19 -cc1 default target aarch64-arm-none-eabi]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "C:/SysGCC/arm-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/14.2.1/include"]
+        ignore line: [ignoring nonexistent directory "C:/SysGCC/arm-eabi/bin/../arm-none-eabi/data/jenkins/workspace/GNU-toolchain/arm-14/build-mingw-arm-none-eabi/install/lib/gcc/arm-none-eabi/14.2.1/../../../../include"]
+        ignore line: [ignoring duplicate directory "C:/SysGCC/arm-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/14.2.1/include-fixed"]
+        ignore line: [ignoring duplicate directory "C:/SysGCC/arm-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include"]
+        ignore line: [ignoring duplicate directory "C:/SysGCC/arm-eabi/bin/../arm-none-eabi/include"]
         ignore line: [#include "..." search starts here:]
-        ignore line: [#include <...> search starts here:\x0d]
-        ignore line: [ C:\\Keil_v5\\ARM\\ARMCLANG\\bin\\..\\include\x0d]
-        ignore line: [End of search list.\x0d]
-        ignore line: [[2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Keil_v5\\ARM\\ARMCLANG\\bin\\armar.exe --create -cr libcmTC_e4fbf.a  CMakeFiles/cmTC_e4fbf.dir/CMakeCCompilerABI.o && cd ."]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/include]
+        ignore line: [ C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/include-fixed]
+        ignore line: [ C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 63ce4b303c7eb47a24bbf869f5c70b36]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b9bb0.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_b9bb0.dir/']
+        ignore line: [ C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_b9bb0.dir/CMakeCCompilerABI.c.obj C:\\Users\\crs\\AppData\\Local\\Temp\\ccJyTcWQ.s]
+        ignore line: [GNU assembler version 2.43.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 2.43.1.20241119]
+        ignore line: [COMPILER_PATH=C:/SysGCC/arm-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/]
+        ignore line: [C:/SysGCC/arm-eabi/bin/../libexec/gcc/]
+        ignore line: [C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/]
+        ignore line: [C:/SysGCC/arm-eabi/bin/../lib/gcc/]
+        ignore line: [C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/]
+        ignore line: [C:/SysGCC/arm-eabi/bin/../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b9bb0.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_b9bb0.dir/CMakeCCompilerABI.c.'\x0d]
+        ignore line: [[2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\SysGCC\\cmake\\bin\\cmake.exe -E rm -f libcmTC_b9bb0.a && C:\\SysGCC\\arm-eabi\\bin\\arm-none-eabi-ar.exe qc libcmTC_b9bb0.a  CMakeFiles/cmTC_b9bb0.dir/CMakeCCompilerABI.c.obj && C:\\SysGCC\\arm-eabi\\bin\\arm-none-eabi-ranlib.exe libcmTC_b9bb0.a && cd ."]
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:12 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "E:/GD32/01-Project/gd32_cmake/build/CMakeFiles/CMakeScratch/TryCompile-hyq3rl"
+      binary: "E:/GD32/01-Project/gd32_cmake/build/CMakeFiles/CMakeScratch/TryCompile-hyq3rl"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/GD32/01-Project/gd32_cmake/build/CMakeFiles/CMakeScratch/TryCompile-hyq3rl'
+        
+        Run Build Command(s): C:/SysGCC/Ninja/ninja.exe -v cmTC_aa503
+        [1/2] C:\\SysGCC\\arm-eabi\\bin\\arm-none-eabi-c++.exe   -v -o CMakeFiles/cmTC_aa503.dir/CMakeCXXCompilerABI.cpp.obj -c C:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=C:\\SysGCC\\arm-eabi\\bin\\arm-none-eabi-c++.exe
+        Target: arm-none-eabi
+        Configured with: /data/jenkins/workspace/GNU-toolchain/arm-14/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-14/build-mingw-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-14/build-mingw-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-14/build-mingw-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-14/build-mingw-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-14/build-mingw-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-14/build-mingw-arm-none-eabi/install/arm-none-eabi --with-bugurl=https://bugs.linaro.org/ --with-multilib-list=aprofile,rmprofile --with-libiconv-prefix=/data/jenkins/workspace/GNU-toolchain/arm-14/build-mingw-arm-none-eabi/host-tools --with-libiconv-prefix=/data/jenkins/workspace/GNU-toolchain/arm-14/build-mingw-arm-none-eabi/host-tools --enable-mingw-wildcard --host=i686-w64-mingw32 --with-pkgversion='Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)'
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 14.2.1 20241119 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_aa503.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_aa503.dir/'
+         C:/SysGCC/arm-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1plus.exe -quiet -v -iprefix C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot C:/SysGCC/arm-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ C:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_aa503.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -o C:\\Users\\crs\\AppData\\Local\\Temp\\ccUtGSAk.s
+        GNU C++17 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) version 14.2.1 20241119 (arm-none-eabi)
+        	compiled by GNU C version 9.3-win32 20200320, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/SysGCC/arm-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include/c++/14.2.1"
+        ignoring duplicate directory "C:/SysGCC/arm-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include/c++/14.2.1/arm-none-eabi"
+        ignoring duplicate directory "C:/SysGCC/arm-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include/c++/14.2.1/backward"
+        ignoring duplicate directory "C:/SysGCC/arm-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/14.2.1/include"
+        ignoring nonexistent directory "C:/SysGCC/arm-eabi/bin/../arm-none-eabi/data/jenkins/workspace/GNU-toolchain/arm-14/build-mingw-arm-none-eabi/install/lib/gcc/arm-none-eabi/14.2.1/../../../../include"
+        ignoring duplicate directory "C:/SysGCC/arm-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/14.2.1/include-fixed"
+        ignoring duplicate directory "C:/SysGCC/arm-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include"
+        ignoring duplicate directory "C:/SysGCC/arm-eabi/bin/../arm-none-eabi/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include/c++/14.2.1
+         C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include/c++/14.2.1/arm-none-eabi
+         C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include/c++/14.2.1/backward
+         C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/include
+         C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/include-fixed
+         C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include
+        End of search list.
+        Compiler executable checksum: dad18755456eb98fd3f9411f1449dfa2
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_aa503.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_aa503.dir/'
+         C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_aa503.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\crs\\AppData\\Local\\Temp\\ccUtGSAk.s
+        GNU assembler version 2.43.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 2.43.1.20241119
+        COMPILER_PATH=C:/SysGCC/arm-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/;C:/SysGCC/arm-eabi/bin/../libexec/gcc/;C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/\x0d
+        LIBRARY_PATH=C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/;C:/SysGCC/arm-eabi/bin/../lib/gcc/;C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/;C:/SysGCC/arm-eabi/bin/../arm-none-eabi/lib/\x0d
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_aa503.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_aa503.dir/CMakeCXXCompilerABI.cpp.'\x0d
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\SysGCC\\cmake\\bin\\cmake.exe -E rm -f libcmTC_aa503.a && C:\\SysGCC\\arm-eabi\\bin\\arm-none-eabi-ar.exe qc libcmTC_aa503.a  CMakeFiles/cmTC_aa503.dir/CMakeCXXCompilerABI.cpp.obj && C:\\SysGCC\\arm-eabi\\bin\\arm-none-eabi-ranlib.exe libcmTC_aa503.a && cd ."
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:191 (message)"
+      - "C:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:12 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include/c++/14.2.1]
+          add: [C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include/c++/14.2.1/arm-none-eabi]
+          add: [C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include/c++/14.2.1/backward]
+          add: [C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/include]
+          add: [C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/include-fixed]
+          add: [C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include]
+        end of search list found
+        collapse include dir [C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include/c++/14.2.1] ==> [C:/SysGCC/arm-eabi/arm-none-eabi/include/c++/14.2.1]
+        collapse include dir [C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include/c++/14.2.1/arm-none-eabi] ==> [C:/SysGCC/arm-eabi/arm-none-eabi/include/c++/14.2.1/arm-none-eabi]
+        collapse include dir [C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include/c++/14.2.1/backward] ==> [C:/SysGCC/arm-eabi/arm-none-eabi/include/c++/14.2.1/backward]
+        collapse include dir [C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/include] ==> [C:/SysGCC/arm-eabi/lib/gcc/arm-none-eabi/14.2.1/include]
+        collapse include dir [C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/include-fixed] ==> [C:/SysGCC/arm-eabi/lib/gcc/arm-none-eabi/14.2.1/include-fixed]
+        collapse include dir [C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include] ==> [C:/SysGCC/arm-eabi/arm-none-eabi/include]
+        implicit include dirs: [C:/SysGCC/arm-eabi/arm-none-eabi/include/c++/14.2.1;C:/SysGCC/arm-eabi/arm-none-eabi/include/c++/14.2.1/arm-none-eabi;C:/SysGCC/arm-eabi/arm-none-eabi/include/c++/14.2.1/backward;C:/SysGCC/arm-eabi/lib/gcc/arm-none-eabi/14.2.1/include;C:/SysGCC/arm-eabi/lib/gcc/arm-none-eabi/14.2.1/include-fixed;C:/SysGCC/arm-eabi/arm-none-eabi/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - "C:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:12 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: 'E:/GD32/01-Project/gd32_cmake/build/CMakeFiles/CMakeScratch/TryCompile-hyq3rl']
+        ignore line: []
+        ignore line: [Run Build Command(s): C:/SysGCC/Ninja/ninja.exe -v cmTC_aa503]
+        ignore line: [[1/2] C:\\SysGCC\\arm-eabi\\bin\\arm-none-eabi-c++.exe   -v -o CMakeFiles/cmTC_aa503.dir/CMakeCXXCompilerABI.cpp.obj -c C:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\SysGCC\\arm-eabi\\bin\\arm-none-eabi-c++.exe]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: /data/jenkins/workspace/GNU-toolchain/arm-14/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-14/build-mingw-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-14/build-mingw-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-14/build-mingw-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-14/build-mingw-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-14/build-mingw-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-14/build-mingw-arm-none-eabi/install/arm-none-eabi --with-bugurl=https://bugs.linaro.org/ --with-multilib-list=aprofile,rmprofile --with-libiconv-prefix=/data/jenkins/workspace/GNU-toolchain/arm-14/build-mingw-arm-none-eabi/host-tools --with-libiconv-prefix=/data/jenkins/workspace/GNU-toolchain/arm-14/build-mingw-arm-none-eabi/host-tools --enable-mingw-wildcard --host=i686-w64-mingw32 --with-pkgversion='Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)']
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 14.2.1 20241119 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_aa503.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_aa503.dir/']
+        ignore line: [ C:/SysGCC/arm-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1plus.exe -quiet -v -iprefix C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot C:/SysGCC/arm-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ C:/SysGCC/cmake/share/cmake-4.0/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_aa503.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -o C:\\Users\\crs\\AppData\\Local\\Temp\\ccUtGSAk.s]
+        ignore line: [GNU C++17 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) version 14.2.1 20241119 (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version 9.3-win32 20200320  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "C:/SysGCC/arm-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include/c++/14.2.1"]
+        ignore line: [ignoring duplicate directory "C:/SysGCC/arm-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include/c++/14.2.1/arm-none-eabi"]
+        ignore line: [ignoring duplicate directory "C:/SysGCC/arm-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include/c++/14.2.1/backward"]
+        ignore line: [ignoring duplicate directory "C:/SysGCC/arm-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/14.2.1/include"]
+        ignore line: [ignoring nonexistent directory "C:/SysGCC/arm-eabi/bin/../arm-none-eabi/data/jenkins/workspace/GNU-toolchain/arm-14/build-mingw-arm-none-eabi/install/lib/gcc/arm-none-eabi/14.2.1/../../../../include"]
+        ignore line: [ignoring duplicate directory "C:/SysGCC/arm-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/14.2.1/include-fixed"]
+        ignore line: [ignoring duplicate directory "C:/SysGCC/arm-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include"]
+        ignore line: [ignoring duplicate directory "C:/SysGCC/arm-eabi/bin/../arm-none-eabi/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include/c++/14.2.1]
+        ignore line: [ C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include/c++/14.2.1/arm-none-eabi]
+        ignore line: [ C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include/c++/14.2.1/backward]
+        ignore line: [ C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/include]
+        ignore line: [ C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/include-fixed]
+        ignore line: [ C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: dad18755456eb98fd3f9411f1449dfa2]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_aa503.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_aa503.dir/']
+        ignore line: [ C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_aa503.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\crs\\AppData\\Local\\Temp\\ccUtGSAk.s]
+        ignore line: [GNU assembler version 2.43.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 2.43.1.20241119]
+        ignore line: [COMPILER_PATH=C:/SysGCC/arm-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/]
+        ignore line: [C:/SysGCC/arm-eabi/bin/../libexec/gcc/]
+        ignore line: [C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/\x0d]
+        ignore line: [LIBRARY_PATH=C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/]
+        ignore line: [C:/SysGCC/arm-eabi/bin/../lib/gcc/]
+        ignore line: [C:/SysGCC/arm-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/]
+        ignore line: [C:/SysGCC/arm-eabi/bin/../arm-none-eabi/lib/\x0d]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_aa503.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_aa503.dir/CMakeCXXCompilerABI.cpp.'\x0d]
+        ignore line: [[2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\SysGCC\\cmake\\bin\\cmake.exe -E rm -f libcmTC_aa503.a && C:\\SysGCC\\arm-eabi\\bin\\arm-none-eabi-ar.exe qc libcmTC_aa503.a  CMakeFiles/cmTC_aa503.dir/CMakeCXXCompilerABI.cpp.obj && C:\\SysGCC\\arm-eabi\\bin\\arm-none-eabi-ranlib.exe libcmTC_aa503.a && cd ."]
         ignore line: []
         ignore line: []
         implicit libs: []

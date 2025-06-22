@@ -412,8 +412,8 @@ ErrStatus enet_init(enet_mediamode_enum mediamode, enet_chksumconf_enum checksum
 		reg_value |= media_temp;
 		ENET_MAC_CFG = reg_value;
     } else {
-		// void lan_phy_init(void);
-		// lan_phy_init();
+		void lan_phy_init(void);
+		lan_phy_init();
 //        phy_value = (uint16_t)((media_temp & ENET_MAC_CFG_DPM) >> 3);
 //        phy_value |= (uint16_t)((media_temp & ENET_MAC_CFG_SPD) >> 1);
 //        phy_state = enet_phy_write_read(ENET_PHY_WRITE, PHY_ADDRESS, PHY_REG_BCR, &phy_value);

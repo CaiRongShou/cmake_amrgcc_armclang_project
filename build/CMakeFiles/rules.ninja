@@ -14,29 +14,31 @@
 #############################################
 # Rule for compiling ASM files.
 
-rule ASM_COMPILER__output_unscanned_Debug
+rule ASM_COMPILER__output.2eelf_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = ${LAUNCHER}${CODE_CHECK}C:\Keil_v5\ARM\ARMCLANG\bin\armclang.exe $DEFINES $INCLUDES $FLAGS -c -o $out $in
+  command = ${LAUNCHER}${CODE_CHECK}C:\SysGCC\arm-eabi\bin\arm-none-eabi-gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building ASM object $out
 
 
 #############################################
 # Rule for compiling C files.
 
-rule C_COMPILER__output_unscanned_Debug
+rule C_COMPILER__output.2eelf_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = ${LAUNCHER}${CODE_CHECK}C:\Keil_v5\ARM\ARMCLANG\bin\armclang.exe --target=arm-arm-none-eabi $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ${LAUNCHER}${CODE_CHECK}C:\SysGCC\arm-eabi\bin\arm-none-eabi-gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
 #############################################
 # Rule for linking C executable.
 
-rule C_EXECUTABLE_LINKER__output_Debug
-  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\Keil_v5\ARM\ARMCLANG\bin\armlink.exe $LINK_FLAGS $LINK_PATH $LINK_LIBRARIES $in -o $TARGET_FILE && $POST_BUILD"
+rule C_EXECUTABLE_LINKER__output.2eelf_Debug
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\SysGCC\arm-eabi\bin\arm-none-eabi-gcc.exe $FLAGS $LINK_FLAGS @$RSP_FILE -o $TARGET_FILE && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
+  rspfile = $RSP_FILE
+  rspfile_content = $in $LINK_PATH $LINK_LIBRARIES
   restat = $RESTAT
 
 
