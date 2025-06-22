@@ -12,4 +12,4 @@
 * board：存放和板子初始化和链接文件
 * libraries：存放各种库文件，CMSIS，芯片固件库，文件系统库，网络库等
 * module：主要存放各种软件模块，比如软件定时器，PID,FIFO,状态机等
-* project：存放工程文件（目前只支持MDK5）
+* project：存放工程文件
