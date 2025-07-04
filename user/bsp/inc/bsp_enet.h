@@ -4,7 +4,7 @@
 #include "main.h"
 
 
-// #define USE_DHCP       1 /* enable DHCP, if disabled static address is used */
+#define USE_DHCP       1 /* enable DHCP, if disabled static address is used */
 
 #define USE_ENET_INTERRUPT
 //#define TIMEOUT_CHECK_USE_LWIP

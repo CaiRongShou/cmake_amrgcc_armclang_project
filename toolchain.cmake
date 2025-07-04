@@ -14,7 +14,10 @@ if(USER_ARMGCC)
 else() # armclang
     set(COMPATIBLE_ROOT_PATH C:/Keil_v5/ARM/ARMCLANG/bin) # armclang路径
     set(CMAKE_C_COMPILER ${COMPATIBLE_ROOT_PATH}/armclang.exe) # armclang c编译器路径
+    set(CMAKE_CXX_COMPILER ${COMPATIBLE_ROOT_PATH}/armclang.exe) # armclang c编译器路径
     set(CMAKE_ASM_COMPILER ${COMPATIBLE_ROOT_PATH}/armclang.exe) # armclang asm编译器路径
     set(CMAKE_OBJCOPY ${COMPATIBLE_ROOT_PATH}/fromelf.exe)
     set(CMAKE_SIZE ${COMPATIBLE_ROOT_PATH}/fromelf.exe)
+    set(CMAKE_LINKER ${COMPATIBLE_ROOT_PATH}/armlink.exe)
 endif()
+

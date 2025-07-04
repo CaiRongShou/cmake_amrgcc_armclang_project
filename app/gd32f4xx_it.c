@@ -123,6 +123,15 @@ void Error_Handler(void)
     /* USER CODE END Error_Handler */
 }
 
+#if USE_USB
+void USBFS_IRQHandler(void)
+{
+    void USBD_IRQHandler(uint8_t busid);
+    USBD_IRQHandler(0);
+}
+#endif
+
+
 #if USE_SD
 /*!
     \brief      this function handles SDIO interrupt request
@@ -205,6 +214,7 @@ void board_init(void)
 {
 	nvic_priority_group_set(NVIC_PRIGROUP_PRE2_SUB2);
 	nvic_vector_table_set(NVIC_VECTTAB_FLASH, 0x0);
+    SystemCoreClockUpdate();
     systick_config();
 
 }

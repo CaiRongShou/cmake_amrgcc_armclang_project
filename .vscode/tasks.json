@@ -7,9 +7,10 @@
             "command": "cmake",
             "args": [
                 "-DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE",
-                "-GNinja",
+                "-GNinja", //
                 "-Bbuild",
-                "-DCMAKE_BUILD_TYPE=Debug"
+                "-DCMAKE_BUILD_TYPE=Debug",
+                "-DCMAKE_TOOLCHAIN_FILE=toolchain.cmake", //指定编译工具链文件
             ],
             "group": {
                 "kind": "build",
@@ -23,8 +24,8 @@
             "args": [
                 "--build",
                 "build",
-                "--target",
-                "all"
+                // "--target",
+                // "all"
             ],
             "group": {
                 "kind": "build",
